@@ -1,31 +1,25 @@
 \chapter{Quantenpunkte}
 
-\noindent Diese Arbeit beschäftigt sich mit der mathematischen Modellierungen der Spindynamik eines Quantenpunktes, deshalb ist es 
-sinnvoll vorab zu klären, was ein Quantenpunkt überhaupt ist. Damit einhergehend lassen sich die hier angenommenen Modelle begründen.\\
-
-
-
+\noindent Diese Arbeit beschäftigt sich mit der mathematischen Modellierungen der Spindynamik eines negativ geladenen
+Quantenpunktes, deshalb ist es sinnvoll vorab zu klären, was ein Quantenpunkt überhaupt ist. Damit einhergehend lassen sich die hier angenommenen Modelle begründen.\\
 \begin{figure}[h!]
     \centering
-    \includegraphics[width = 0.45\textwidth]{Abbildungen/QD_Schema.png}
+    %\includegraphics[width = 0.45\textwidth]{Abbildungen/QD_Schema.png}
     \includegraphics[width = 0.45\textwidth]{Abbildungen/einQD.png}
-    \caption{Links:Schematischer Aufbau vom Wachstum eines InAs-Quantenpunkt auf einem GaAs-Substrat. Rechts: Automatisch 
-    aufgelöstes Bild eines InAs-Quantenpunktes}
+    \caption{Automatisch aufgelöstes Bild eines InAs-Quantenpunktes}
     \label{fig:QD_Schema}
 \end{figure}
 
 \noindent Die hier betrachten Quantenpunkte sind nanoskopische Halbleiterstrukturen, die wie ein dreidimensionaler Potentialtopf fungieren
- und einzelne Ladungsträger wie Elektronen oder Löcher einfangen können.\\
+und einzelne Ladungsträger wie Elektronen oder Löcher einfangen können.\\
 Die Stranski-Krastnov-Methode ist eine weitverbreitete Methode um Quantenpunkte zu erzeugen, dabei ist die Idee zwei Materialien mit 
-unterschiedlicher Gitterkonstante mittels Molekularstrahlepitaxie aufeinander wachsen zu lassen. Der Kürze halber lässt es sich 
-beispielhaft an den beiden Materialien InAs und GaAs erklären, denn dabei wird InAs-Schicht auf ein GaAs-Substrat wachsen gelassen, 
+unterschiedlicher Gitterkonstante mittels Molekularstrahlepitaxie aufeinander wachsen zu lassen. Der Kürze Halber lässt es sich 
+beispielhaft an den beiden Materialien InAs und GaAs erklären, denn dabei wird eine InAs-Schicht auf ein GaAs-Substrat wachsen gelassen, 
 wobei die Gitterkonstante des InAs etwa 7\% größer ist, wodurch Spannung zwischen beiden Materialien entsteht. \\
-\noindent Diese Spannung bewirkt Formationen von InAs-Inseln wie in \autoref{fig:QD_Schema} links zu sehen, die nur wenige zehn 
+\noindent Diese Spannung bewirkt eine Formationen von InAs-Inseln wie in \autoref{fig:QD_Schema} zu sehen, die nur wenige zehn 
 Nanometer groß sind, und verändert selbst die elektronische Eigenschaften, hauptsächlich den elektrische Feldgradienten des 
-Quantenpunktes. Nun wird eine weiter Monoschicht GaAs auf das ganze Substrat gewachsen, so dass die InAs-Inseln vollständig von 
+Quantenpunktes. Nun wird GaAs auf das ganze Substrat gewachsen, so dass die InAs-Inseln vollständig von 
 dem GaAs umschlossen sind. Diese umschlossenen InAs-Inseln bilden dann explizit den Quantenpunkt.\\
-
-
 \begin{figure}
    \centering
     \includegraphics[width = 0.45\textwidth]{Abbildungen/QD_Energiebänder.png}
@@ -33,10 +27,13 @@ dem GaAs umschlossen sind. Diese umschlossenen InAs-Inseln bilden dann explizit 
     gefangenem Ladungsträger}
     \label{fig:QD_Bandstruktur}
 \end{figure}
-\noindent Das GaAs, welches den In(Ga)As Quantenpunkt umschließt, fungiert als Potentialtopf, denn die Energiebandlücke des InAs ist 
-signifikant kleiner als die des GaAs. Nun kann ein einzelnes Elektron (Loch) räumlich einfangen werden und die Wechselwirkung mit dem 
-Substrat unterdrückt werden, wodurch die Dekohärenzzeit deutlich verlängert werden kann. Eine kurze Dekohärenzzeit ist seit Beginn ein 
-Hauptproblem bei der Realisierung des Quantencomputers. In \autoref{fig:QD_Bandstruktur} ist zu erkennen, dass einzelne Ladungsträger 
-im InAs auf bestimmte Energieniveaus gefangen sind.\\
-Dabei ist die Hyperfeinstruktur die dominante Wechselwirkung. Quantenpunkte werden deshalb auch als "künstliche Atome" bezeichnet,
- da ganz in Analogie zu Atomen ihre diskreten Enerigieniveaus von den eingefangen Teilchen besetzt werden können.
+
+\noindent Das GaAs, welches den In(Ga)As-Quantenpunkt umschließt, fungiert als Potentialtopf, denn die Energiebandlücke des InAs ist 
+signifikant kleiner als die des GaAs. Nun kann ein einzelnes Elektron räumlich einfangen werden und durch die Lokalisierung 
+die Wechselwirkung mit dem Substrat unterdrückt werden. Dadurch ist nur noch die Hyperfeinstruktur, also die Wechselwirkung mit den 
+umliegenden Kernspins die dominante Wechselwirkung, wodurch die Dekohärenzzeit verlängert werden kann. Dies ist vorteilhaft, da 
+eine kurze Dekohärenzzeit seit Beginn ein Hauptproblem bei der Realisierung des Quantencomputers ist.\\
+In \autoref{fig:QD_Bandstruktur} ist zu erkennen, dass einzelne Elektronen (oder Löcher)
+im InAs auf bestimmte Energieniveaus gefangen sind, ähnlich wie in einem Potentialtopf.\\
+Quantenpunkte werden deshalb auch als "künstliche Atome" bezeichnet, da ganz in Analogie zu Atomen diskrete Enerigieniveaus 
+von den eingefangen Elektronen besetzt werden können.

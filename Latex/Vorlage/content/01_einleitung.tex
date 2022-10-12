@@ -1,24 +1,27 @@
 \chapter{Einleitung}
 Die Realisierung von Quantencomputer mit genügend hoher Anzahl an Qubits wird oft als das „heilige Gral der Wissenschaft“ angesehen, denn 
 es soll nach theoretischen Überlegungen, die über ein halbes Jahrhundert zurückführen, in der Lage sein, die Grenzen moderner Computer zu 
-überschreiten. \\Im Gegensatz zum herkömmlichen Computer, der auf Basis von elektrischen Zuständen in Halbleitertransistoren funktioniert 
-und nur die Zustände $\ket{0}$ oder $\ket{1}$ kennt, basiert der Quantencomputer auf quantenmechanische Zustände, wodurch u.a. eine 
-drastisch höhere Anzahl von Zuständen auf gleichem Raum ermöglicht wird, was in bestimmten schnellere Prozesse.\\
-Um sich dieses Problem zu verdeutlichen, wird der Hilbertraum eines N-Teilchen-Systems bestehend aus ½-Teilchen betrachtet, welches eine 
+überschreiten. \\
+Im Gegensatz zum herkömmlichen Computer, der auf Basis von elektrischen Zuständen in Halbleitertransistoren funktioniert 
+und nur die Zustände $\ket{0}$ oder $\ket{1}$ kennt, basiert der Quantencomputer auf der Superposition äquivalenter 
+quantenmechanischer Zustände $\ket{0}$ und $\ket{1}$, wodurch u.a. eine drastisch höhere Anzahl von Zuständen auf gleichem Raum ermöglicht 
+wird, was in bestimmten Fällen schnellere Prozesse zu Folge hat.\\
+Um sich dieses Problem zu verdeutlichen, wird der Hilbertraum eines N-Teilchen-Systems bestehend aus ½-Spin-Teilchen betrachtet, welches eine 
 Dimension von $2^N$ besitzt; so dass allein die Speicherung aller Freiheitsgrade eines 100 Teilchen Systems eine unmögliche Herausforderung
- derzeitig ist. Dieses Problem hat schon damalige Physiker zu der Annahme verleitet, dass wohl ein theoretisch ein Computer basierend 
- auf quantenmechanischen Wirkungsmechanismen die wohl angebrachteste Lösung wäre. Und tatsächlich haben Bernstein and Vazirani 
- den ersten Beweis veröffentlicht, dass ein Quantencomputer in der Lage ist, das exponentielle Wachstum der Rechendauer auf ein 
- polynomiales Wachstum runterzubrechen.\\
-Darüber hinaus können viele Algorithmen implementiert werden, dazu gehört auch der bekannte Shor-Algorithmus; ein Faktorisierungsverfahren,
-welches unter anderem ein gewaltiges Sicherheitsrisiko für das übliche RSA-Kryptosystem darstellt.\\
+derzeitig ist. \\
+Dieses Problem hat schon Feynman zu der Annahme verleitet, dass wohl theoretisch ein Computer basierend 
+auf quantenmechanischen Wirkungsmechanismen die wohl angebrachteste Lösung wäre. Und tatsächlich haben Bernstein and Vazirani 
+den ersten Beweis veröffentlicht, dass ein Quantencomputer in der Lage ist, das exponentielle Wachstum der Rechendauer auf ein 
+polynomiales Wachstum runterzubrechen.\\
+Darüber hinaus können viele Algorithmen implementiert werden, die vorher nicht möglich waren, dazu gehört auch der bekannte Shor-Algorithmus; 
+ein Faktorisierungsverfahren, welches unter anderem ein gewaltiges Sicherheitsrisiko für das übliche RSA-Kryptosystem darstellt.\\
 
-\noindent Die zentralen Bausteine eines Quantencomputers sind die Quantencubits, kurz Qubits. Damit werden beliebige quantemechanische 
-zwei-Niveau-Systeme sammelbezeichnet. In der Vergangenheit wurden bereits einige Realisierungsmöglichkeiten des Qubits umgesetzt.\\
-Die Realisierungsvorschlag mit der sich diese Arbeit beschäftigt, ist die des Spins eines in einem Quantenpunkt eingefangenen 
-Elektrons (Loch). Um diesen Spin zu beschreiben wird das Central-Spin-Model zur Beschreibung der Elektronepindynamik verwendet und mit 
-dem semi-klassischen Variationsverfahren "Time-Dependent Variational Principle" (TDVP) behandelt.\\
+\noindent Die zentralen Bausteine eines Quantencomputers sind die Quantenbits, kurz Qubits. Dabei entspricht ein Qubit ein wohldefiniertes
+Zwei-Niveau Quantensystem. In der Vergangenheit wurden bereits einige Realisierungsmöglichkeiten des Qubits umgesetzt.\\
+Der Realisierungsvorschlag, mit der sich diese Arbeit beschäftigt, ist den Spin eines in einem Quantenpunkt eingefangenen 
+Elektrons zu verwenden. Um die Elektronenspindynamik zu beschreiben, wird das Central-Spin-Model verwendet und mit 
+dem Variationsverfahren "Time-Dependent Variational Principle" (TDVP) behandelt.\\
 
-\noindent Die Hoffnung liegt darin, durch Modifikationen von Parametern $\mu$ einer zu variierenden Wellen 
-$\ket{\Psi} = \ket{\Psi(\mu_1,...,\mu_N)}$ das Problem des exponentiell zu N anwachsenden Hilbertraumes zu umgehen und gegenüber 
-herkömmlichen, vollkommen quantenmechanischem Ansätzen mit größeren N möglichst kleine Abweichungen von der exakten Lösung zu erhalten.
+\noindent Dabei wird durch Modifikationen einer zu variierenden klassischen bzw. semi-klassischen Wellenfunktion 
+$\ket{\Psi} = \ket{\Psi(\mu_1,...,\mu_N)}$, das Problem in ein semi-klassisches Problem überführt. Dadurch soll die Problematik des exponentiell 
+anwachsenden Hilbertraumes umgangen werden.

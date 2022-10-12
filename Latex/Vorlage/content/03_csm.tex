@@ -1,0 +1,50 @@
+\chapter{Central Spin Model}
+
+\begin{wrapfigure}{r}{0.4\textwidth}
+    \centering
+    \includegraphics[width = 0.35\textwidth]{Abbildungen/CSM_Schema_Salem.png}
+    \caption{Schematischer Aufbau des Central-Spin-Modells mit dem Elektronenspins (Rot) und den in direkter Umgebung liegenden 
+    Kernspins (Grün) und einer Kopplungskonstante $A_k$}
+    \label{fig:CSM}
+\end{wrapfigure}
+%CSM: https://iopscience.iop.org/article/10.1088/1367-2630/16/6/065023
+Im folgenden wird das \textbf{Central Spin Model} zur Beschreibung der Spindynamik des Quantenpunktes verwendet. Dabei werden die Interaktionen des 
+Elektronenspins mit dem externen Magnetfeld $\vec{B}$ und den umliegenden Kernspins $\hat{\vec{I}}_k$ über eine Heisenbergkopplung $A_k$ berücksichtigt.
+Die Kernspins wechselwirken dabei auch mit dem äußeren Magnetfeld, aber die Wechselwirkung untereinander wird vernachlässigt.
+\begin{align}
+    \overline{\hat{H}}_{CSM} &= \mu_B\thinspace g_e \vec{B}\hat{\vec{S}} +  \sum_{k=1}^{N}\mu_k\thinspace g_k\vec{B}\hat{\vec{I}}_k + \sum_{k=1}^{N} A_k \hat{\vec{S}}\hat{\vec{I}}_k
+\end{align}
+Dabei entspricht anders als beim freien Elektron der g-Faktor eines Elektron im Quantenpunkt nicht mehr 2, sondern ca. 0,555. %[A. Greilich, A. Shabaev, D. R. Yakovlev, Al. L. Efros, I. A. Yugova, D. Reuter,
+%A. D. Wieck, and M. Bayer. Nuclei-induced frequency focusing of electron spin
+%coherence. Science, 317:1896, 2007.]
+Das Kernmagneton $\mu_k= 5,05 \cdot 10^{27} \frac{J}{T}$ ist etwa 1800 Mal kleiner als das Bohrsche Magneton.
+Die g-Faktoren $g_k$ können für alle Kernspins der Einfachheit Halber als gleich angenommen werden. Zudem lässt sich eine charakterische Zeit
+definieren:
+\begin{align}
+    T^* &= \frac{1}{\sqrt{\sum_k A_k^2\langle \hat{I}_k^2 \rangle}}
+\end{align}
+Nun kann der dimensionslose Hamiltonian $\hat{H}_{CSM} = T^*\thinspace\overline{\hat{H}}_{CSM}$ hingeschrieben werden:
+\begin{align}
+    \hat{H}_{CSM} &= \vec{b}\hat{\vec{S}} +  \sum_{k=1}^{N}z_k\vec{b}\hat{\vec{I}}_k + \sum_{k=1}^{N} \alpha_k \hat{\vec{S}}\hat{\vec{I}}_k
+\end{align}
+% \langle\Psi(t) \mid \dot{\Psi}(t)\rangle
+mit $\vec{b}=T^*\mu_B\thinspace g_e \vec{B}$ , $z_k=T^*\frac{\mu_I g_k}{\mu_B g_e}$ und $\alpha_k = T^* A_k$.
+\noindent Durch die Hinzunahme nur eines zusätzlich Kernspinors $\hat{\vec{I}}$ erhalten wir den einfachsten Fall des Central 
+Spin Models, der Hamiltonian vereinfacht sich somit zu:
+\begin{align}
+    \hat{H} &= \underbrace{ \vec{b}\hat{\vec{S}}}_{\hat{H}_1} + \underbrace{z \vec{b}\hat{\vec{I}}}_{\hat{H}_2} + 
+    \underbrace{\alpha \hat{\vec{S}}\hat{\vec{I}}}_{\hat{H}_3}\\
+\end{align}
+ mit der charakteristischen Zeit:
+ \begin{align}
+    T^* &= \sqrt{\frac{4}{3}}\frac{1}{A}
+ \end{align}
+
+
+
+%%%%%%% Klassischer Ansatz
+
+
+
+
+
