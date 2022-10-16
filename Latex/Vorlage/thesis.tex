@@ -137,15 +137,15 @@
 %------------------------------------------------------------------------------
 
 \author{Salem Bassit Rezik}
-\title{Semi-klassischer Variationsansatz zur Spindynamik in Quantenpunkten}
+\title{Semiklassischer Variationsansatz zur Spindynamik in Quantenpunkten}
 \date{2022}
 \birthplace{Essen}
 \chair{Lehrstuhl für theoretische Physik}
 \division{Fakultät Physik}
 \thesisclass{Bachelor of Science}
 \submissiondate{25.10.2022}
-\firstcorrector{Prof. Dr. Frithjof Anders}
-\secondcorrector{Prof. Dr. Götz Uhrich}
+\firstcorrector{Prof. Dr. Frithjof B. Anders}
+\secondcorrector{Prof. Dr. Götz Uhrig}
 
 % tu logo on top of the titlepage
 \titlehead{\includegraphics[height=1.5cm]{logos/tu-logo.pdf}}
@@ -167,8 +167,9 @@
 \input{content/01_einleitung.tex}
 \input{content/02_quantenpunkte}
 \input{content/03_csm.tex}
-\input{content/04_tdvp.tex}
+\input{content/07_variation.tex}
 \input{content/05_vergleich.tex}
+\input{content/06_zusammenfassung.tex}
 
 \appendix
 % Hier beginnt der Anhang, nummeriert in lateinischen Buchstaben
@@ -182,3 +183,22 @@
 \includepdf{content/Eidesstattliche_Versicherung.pdf}
 
 \end{document}
+
+
+Dafür wird zuerst 
+\begin{align}
+    \partial_\mu \left(\frac{\bra{\Psi}\hat{S_x}\ket{\Psi}}{\N}\right)\dot{\mu} &= \frac{1}{2}\frac{1-\muk^2}{(1+\mu\muk)^2}\cdot\left[\frac{1}{2}(b_y + ib_x)\mu^2 + \frac{1}{2}(b_y - ib_x) +i\mu b_z\right] 
+\end{align}
+berechnet, um es dann in die Identität \ref{dS_dt} einzusetzen:
+\begin{align}
+    \frac{d}{dt}\left(\frac{\bra{\Psi}\hat{S_x}\ket{\Psi}}{\N}\right) &= \partial_{\mu}\left[\frac{\bra{\Psi}\hat{S_x}\ket{\Psi}}{\N}\right]\dot{\mu} + \partial_{\muk}\left[\frac{\bra{\Psi}\hat{S_x}\ket{\Psi}}{\N}\right]\dot{\muk}\\
+    &= b_y \frac{1}{2}\frac{1-\mu\muk}{(1+\mu\muk)^2} - b_z \frac{i}{2}\frac{\muk -\mu}{(1+\mu\muk)^2}    \\
+    &= b_y\left(\frac{\bra{\Psi}\hat{S_z}\ket{\Psi}}{\N}\right) - b_z\left(\frac{\bra{\Psi}\hat{S_z}\ket{\Psi}}{\N}\right)
+\end{align}
+analog wird berechnet:
+\begin{align}
+    \frac{d}{dt}\left(\frac{\bra{\Psi}\hat{S_y}\ket{\Psi}}{\N}\right) &= b_z\left(\frac{\bra{\Psi}\hat{S_x}\ket{\Psi}}{\N}\right) - b_x\left(\frac{\bra{\Psi}\hat{S_z}\ket{\Psi}}{\N}\right)\\
+    \frac{d}{dt}\left(\frac{\bra{\Psi}\hat{S_z}\ket{\Psi}}{\N}\right) &= b_x\left(\frac{\bra{\Psi}\hat{S_y}\ket{\Psi}}{\N}\right) - b_y\left(\frac{\bra{\Psi}\hat{S_x}\ket{\Psi}}{\N}\right)
+\end{align}
+Die Kreuzproduktstruktur lässt sich somit wiedererkennen.
+

@@ -5,22 +5,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Quantenpunkte}{3}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Central Spin Model}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Zentralspinmodell}{5}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Time Dependent Variational Principle}{7}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Variationsprinzip}{7}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Wahl der Wellenfunktion für einen semi-klassischen Ansatz}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Wahl der Wellenfunktion für einen klassischen Ansatz}{10}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}ein 1/2-Spin im konstanten Magnetfeld}{9}{section.4.2}%
+\contentsline {section}{\numberline {4.2}ein 1/2-Spin im konstanten Magnetfeld}{11}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}klassischer Ansatz: Zwei Spins}{12}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Zwei Spins: Klassischer Ansatz}{12}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}modifizierter Ansatz: Quantenkorrektur}{15}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Modifizierter Ansatz: Quantenkorrektur}{15}{section.4.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Vergleich}{18}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}quantenmechanische Lösung}{18}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Quantenmechanische Lösung}{18}{section.5.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}exemplarischer Vergleich}{19}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Zusammenfassung}{23}{chapter.6}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

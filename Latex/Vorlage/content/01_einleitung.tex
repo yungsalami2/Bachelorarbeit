@@ -6,22 +6,22 @@ Im Gegensatz zum herkömmlichen Computer, der auf Basis von elektrischen Zustän
 und nur die Zustände $\ket{0}$ oder $\ket{1}$ kennt, basiert der Quantencomputer auf der Superposition äquivalenter 
 quantenmechanischer Zustände $\ket{0}$ und $\ket{1}$, wodurch u.a. eine drastisch höhere Anzahl von Zuständen auf gleichem Raum ermöglicht 
 wird, was in bestimmten Fällen schnellere Prozesse zu Folge hat.\\
-Um sich dieses Problem zu verdeutlichen, wird der Hilbertraum eines N-Teilchen-Systems bestehend aus ½-Spin-Teilchen betrachtet, welches eine 
-Dimension von $2^N$ besitzt; so dass allein die Speicherung aller Freiheitsgrade eines 100 Teilchen Systems eine unmögliche Herausforderung
-derzeitig ist. \\
+Um sich dieses Problem zu verdeutlichen, wird der Hilbertraum eines N-Teilchen-Systems bestehend aus ½-Spin-Teilchen betrachtet, welcher eine 
+Dimension von $2^N$ besitzt. Allein die Speicherung aller Freiheitsgrade eines 100 Teilchen Systems ist eine unmögliche Herausforderung
+derzeitig. \\
 Dieses Problem hat schon Feynman zu der Annahme verleitet, dass wohl theoretisch ein Computer basierend 
 auf quantenmechanischen Wirkungsmechanismen die wohl angebrachteste Lösung wäre. Und tatsächlich haben Bernstein and Vazirani 
 den ersten Beweis veröffentlicht, dass ein Quantencomputer in der Lage ist, das exponentielle Wachstum der Rechendauer auf ein 
-polynomiales Wachstum runterzubrechen.\\
+polynomiales Wachstum runterzubrechen\cite{10.1145/167088.167097}.\\
 Darüber hinaus können viele Algorithmen implementiert werden, die vorher nicht möglich waren, dazu gehört auch der bekannte Shor-Algorithmus; 
-ein Faktorisierungsverfahren, welches unter anderem ein gewaltiges Sicherheitsrisiko für das übliche RSA-Kryptosystem darstellt.\\
+ein Faktorisierungsverfahren, welches unter anderem ein gewaltiges Sicherheitsrisiko für das übliche RSA-Kryptosystem darstellt\cite{365700,10.1137/S0097539795293172}.\\
 
 \noindent Die zentralen Bausteine eines Quantencomputers sind die Quantenbits, kurz Qubits. Dabei entspricht ein Qubit ein wohldefiniertes
-Zwei-Niveau Quantensystem. In der Vergangenheit wurden bereits einige Realisierungsmöglichkeiten des Qubits umgesetzt.\\
+Zwei-Niveau Quantensystem. In der Vergangenheit wurden bereits einige Realisierungsmöglichkeiten des Qubits umgesetzt wie Stickstoff-Fehlstellen-Zentren 
+in Diamanten\cite{PhysRevLett.93.130501,Hanson2008-tn}, Kernspin von Molekülen in Flüssigkeiten\cite{RevModPhys.76.1037},
+Supraleitende Schaltkreise\cite{RevModPhys.73.357} und Phosphorunreinheiten im Silikon\cite{Kane1998-pc}.\\
 Der Realisierungsvorschlag, mit der sich diese Arbeit beschäftigt, ist den Spin eines in einem Quantenpunkt eingefangenen 
-Elektrons zu verwenden. Um die Elektronenspindynamik zu beschreiben, wird das Central-Spin-Model verwendet und mit 
-dem Variationsverfahren "Time-Dependent Variational Principle" (TDVP) behandelt.\\
+Elektrons zu verwenden\cite{Elzerman2004-wu,Bonadeo1998-nr,PMID:17901328,Fokina_2010,Spatzek2011-rn}. Um die Elektronenspindynamik zu beschreiben, wird 
+das Zentralspinmodell verwendet und die Dynamik mit dem Variationsverfahren "Time-Dependent Variational Principle" (TDVP) behandelt.\\
 
-\noindent Dabei wird durch Modifikationen einer zu variierenden klassischen bzw. semi-klassischen Wellenfunktion 
-$\ket{\Psi} = \ket{\Psi(\mu_1,...,\mu_N)}$, das Problem in ein semi-klassisches Problem überführt. Dadurch soll die Problematik des exponentiell 
-anwachsenden Hilbertraumes umgangen werden.
+
