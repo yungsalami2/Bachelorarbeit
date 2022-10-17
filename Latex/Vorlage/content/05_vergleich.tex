@@ -1,7 +1,7 @@
-\chapter{Vergleich}
-Hier wird nun die Klassische Lösung für den Zwei-Spin-Fall mit der exakten quantenmechanischen Lösung verglichen.
+\chapter{Disukssion}
+Hier wird nun die klassische Lösung für den Zwei-Spin-Fall mit der exakten quantenmechanischen Lösung verglichen.
 \section{Quantenmechanische Lösung}
-Für die exakte quantenmechanische Lösung, wird der Hamiltonian diagonalisiert über die Basis:
+Für die exakte quantenmechanische Lösung des Hamiltonoperators Gl. (\ref{zweiSpinHamilton}), wird der Hamiltonian diagonalisiert über die Basis:
 \begin{align}
     \ket{1} &= \ket{\uparrow\uparrow}   \\
     \ket{2} &= \ket{\downarrow\downarrow} \\
@@ -15,18 +15,20 @@ mit $\epsilon_{1,2} = \frac{\alpha \pm \sqrt{b^2(1-z)^2+\alpha^2} }{b(z-1)} $ un
     E_3 &= -\frac{\alpha}{4} + \frac{\sqrt{\alpha^2 + b^2(1-z)^2}}{2}\\
     E_4 &= -\frac{\alpha}{4} - \frac{\sqrt{\alpha^2 + b^2(1-z)^2}}{2}\\
 \end{align}
-\noindent Über den Zeitentwicklungsoperator und einem beliebigen Startzustand $\ket{\Psi_0}$, lässt sich die Spindynamik hinschreiben als:
+\noindent Über den Zeitentwicklungsoperator und einem beliebigen Startzustand $\ket{\Psi_0}$, lässt sich die zeitabhängige Wellenfunktion 
+$|\Psi(t)\rangle = e^{-i\hat{H}t}|\Psi_0\rangle = \sum_j e^{-i E_j t}|j\rangle\langle j|\Psi_0\rangle$ definieren. Somit ist die Spindynamik
+beschrieben über
 \begin{align}
-    \bra{\Psi}\hat{S}_\alpha\ket{\Psi} &= \sum_{i,j}e^{i(E_i-E_j)t}\bra{i}\hat{S}_\alpha\ket{j}\bra{j}\ket{\Psi_0}\bra{\Psi_0}\ket{i}
+    \bra{\Psi}\hat{S}_\alpha\ket{\Psi}(t) &= \sum_{i,j}e^{i(E_i-E_j)t}\bra{i}\hat{S}_\alpha\ket{j}\bra{j}\ket{\Psi_0}\bra{\Psi_0}\ket{i}
 \end{align}
-\section{exemplarischer Vergleich}
+\section{Exemplarischer Vergleich}
 \begin{wrapfigure}{r}{0.4\textwidth}
     \centering
     \includegraphics[width = 0.4\textwidth]{Abbildungen/Plot_Vektor_Start.png}
     \caption{gewählter Startzustand in einem 3D-Plot mit rotem Elektronenspinerwartungswert und grünem Kernspinerwartungswert als Vektoren dargestellt}
     \label{fig:Plots_Start}
 \end{wrapfigure}
-Es wird der Startzustand 
+Es wird der Produkt-Startzustand 
 \begin{align}
     \ket{\Psi_0}=\frac{1}{2}(\ket{\uparrow}_S + \ket{\downarrow}_S)(\ket{\uparrow}_I + i\ket{\downarrow}_I)
 \end{align}
@@ -35,7 +37,7 @@ dazu dem Kernspinerwartungswert $\langle\vec{I}\rangle$ entlang der Y-Achse, bei
 Unter all den möglichen Startzuständen gewählt, da dies ein sehr einfachen und anschaulichen Fall darstellt, da das Magnetfeld und beide Spinvektoren 
 ein Dreibein bilden und gleich zu Beginn die Wirkung der Kopplungen unter einander durch die Orthogonalität am stärksten ist.
 
-Dabei wird zur Lösung der Differentialgleichungen \ref{DGL_1} und \ref{DGL_2} zu lösen, wird das Runge-Kutta-Verfahren verwendet, da die 
+Dabei wird zur Lösung der Differentialgleichungen Gl. (\ref{DGL_1}) und Gl. (\ref{DGL_2}) zu lösen, wird das Runge-Kutta-Verfahren verwendet, da die 
 Bewegungsgleichungen die Form besitzen:
 \begin{align}
     \frac{d}{dt}\vec{f} &= \vec{f}(\vec{t}) 
@@ -48,7 +50,7 @@ Bewegungsgleichungen die Form besitzen:
 %∗ ≈ 1 ns
 %Die Parameter werden nah am experimentellen Aufbau gegeben von Greilich et al.\cite{PMID:17901328} gewählt, d.h. wir nehmen an,
 In vorherigen Vergleichen zwischen Experiment und Theorie ergab sich für die charakteristische Zeit $T^*\approx 1 \thinspace$ns\cite{PhysRevB.89.045317}, 
-woraus für die Heisenbergkopplungskonstante $A_k = \sqrt{\frac{4}{3}}\cdot 10^9 \frac{1}{s}$ folgt. Die Zeeman-Konstante beträgt hier 
+woraus für die Heisenbergkopplungskonstante $A = \sqrt{\frac{4}{3}}\cdot 10^9 \frac{1}{s}$ folgt. Die Zeeman-Konstante beträgt hier 
 $z\approx\frac{1}{800}$. Es wird ein Magnetfeld mit $B = 0.5$ T gewählt, darüber hinaus wird die Zeitspanne so lang gewählt, dass die die Umhüllende der 
 summierten Spinlänge $|\langle \left( \vec{S}+\vec{I} \right)\rangle |$  der exakten Lösung in \autoref{fig:Plots_Spinlength} ihr erstes Minimum 
 überschreitet.
@@ -63,7 +65,7 @@ summierten Spinlänge $|\langle \left( \vec{S}+\vec{I} \right)\rangle |$  der ex
     \label{fig:Plots_2D}
 \end{figure}
 
-Aus \autoref{fig:Plots_2D} ist sehr gut zu erkennen, dass durch die Heisenbergkopplung die Spinerwartungswerte $\langle\hat{S}_z \rangle$ 
+Aus \autoref{fig:Plots_2D} im unteren Panel ist sehr gut zu erkennen, dass durch die Heisenbergkopplung die Spinerwartungswerte $\langle\hat{S}_z \rangle$ 
 und $\langle\hat{I}_z \rangle$ um den Nullpunkt oszillieren und sehr kleine Amplituden besitzen, worauf geschloßen werden kann, dass die 
 Spins einigermaßen auf der X-Y-Ebene verweilen und die Frequenz der klassischen Lösung deutlich größer ist als bei der Exakten.
 \begin{figure}[h!]
@@ -78,8 +80,8 @@ Spins einigermaßen auf der X-Y-Ebene verweilen und die Frequenz der klassischen
 % Kreisbahnen als Verschränkung. Kreiszentren präzedieren. Kreiszentrumposition aus logischen gründen anhand der addierten Spinlänge erkennbar.
 
 Wie für die klassische Lösung zu erwarten, präzedieren Elektronen- und Kernspin um das in z-Achse ausgerichtete Magnetfeld, wobei durch die stärkere Kopplung
-die Larmorfrequenz für das Elektron deutlich größer ist. Dies macht sich besonders deutlich in \autoref{fig:Plots_2D}, wo die grüne Kurve (Kernspin) wie 
-eine Gerade mit leichter Steigung bzw. Senkung ausschaut und zeitglich im selben Zeitintervall die rote Kurve (Elektron) mehrere Oszilattionen vollführt; 
+die Larmorfrequenz für das Elektron deutlich größer ist. Dies macht sich besonders deutlich in \autoref{fig:Plots_2D} in den oberen beiden 
+Panels, wo die grüne Kurve (Kernspin) einer Geraden gleicht und zeitglich im selben Zeitintervall die rote Kurve (Elektron) mehrere Oszilattionen vollführt; 
 oder wie in \autoref{fig:Plots_3D}, wo der grüne Spurverlauf (Kernspin) marginal kurz ist im Vergleich zur roten Kreisspur (Elektron), 
 wo der Elektronenspin schon mindestens eine Kreisbahn abgefahren ist.\\ 
 \begin{figure}[h]

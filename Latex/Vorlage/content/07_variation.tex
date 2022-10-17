@@ -6,8 +6,19 @@ Gerade bei einer großen Anzahl von Kernspins ist eine exakte quantenmechanische
 die eine Abweichung zur exakten Lösung in Kauf nehmen, um dafür mehr Spins behandeln zu können. In dieser Arbeit wird das Time-Dependent Variatonal 
 Principle, kurz TDVP, zur Lösung verwendet. Im folgenden werden konjugierte Variablen $\muk$ mit einem Oberbalken notiert.
 
+\textbf{Historische Randnotiz}\\
+Dirac (1930) hat als Erster das Variationsprinzip zur Lösung der zeitabhängigen Schrödingergleichung unter unkommentierten Annahmen vorgestellt; 
+diese Annahmen sind in P. A. M. Dirac und P. A. M."Mathematical Proceedings of the Cambridge Philosophical Society 26, 376 (1930)"\cite{Dirac1930-fc,Mott1934-lg} 
+zu finden und werden im Rahmen dieser Bachelorarbeit nicht explizit erläutert. \\
+Viele Physiker haben versucht Diracs Annahmen zu deuten, darunter P. Kramer, der Diracs Variationsprinzip als ein Wirkungsfunktional 
+(siehe Gl. (\ref{Wirkungsfunktional})) interpretiert (TDVP) \cite{noauthor_2008-dn} und dadurch wie unten skizziert die Euler-Lagrange-Gleichungen hergeleitet hat.
+Frenkel (1934) hat Diracs Ansatz dementgegen als Minimierungsbedinung (siehe Gl. (\ref{Residuum})) und dadurch Orthogonalprojektion interpretiert (DFVP) und 
+bezieht sich dabei auf den Appendix der russischen Übersetzung von Diracs Buch als den Ursprung seines Argumentes\cite{Mott1934-lg}.
+Diese geometrische Interpretation wurde der Kürze halber vornehmlich unten in der Herleitung verwendet. Beide Interpretationen bzw. Ansätze
+sind äquivalent zueinander unter milden Bedingungen\cite{BROECKHOVE1988547}, die für gewöhnlich erfüllt sind.\\
+
 Die zeitabhängige Schrödingergleichung kann durch Extermisierung des Wirkungsfunktionals
-\begin{align}
+\begin{align}\label{Wirkungsfunktional}
     S\{\overline{\Psi}(t),\Psi(t)\} &=  \int_{t_1}^{t_2}dt \thinspace L(\overline{\Psi}(t),\Psi(t),t)
 \end{align}
 mit der Lagrange-Funktion und der normierten Wellenfunktion $\ket{\Psi}$:
@@ -34,7 +45,7 @@ Anmerkung: Es wird die Konvention $\bra{\partial_{\overline{\mu_j}}\Psi} = \left
 
 Nun kann durch die direkte Variation der Parameter $\vec{\muk}(t)\rightarrow \vec{\muk}(t) + \delta\vec{\muk}$ und der Stationaritätsbedingung 
 $\delta S = 0$ die Euler-Lagrange-Gleichungen hergeleitet werden. Eleganter ist die geometrische Interpretion zur Herleitung der Euler-Lagrange-Gleichungen
-zu verwenden, in der das Residuum der Schrödingergleichung bzw. der Abstand zwischen der Schrödingergleichung und der Tangentialebene $T_{\mu(t)}M$ 
+zu verwenden (siehe oben in der historischen Randnotiz), in der das Residuum der Schrödingergleichung bzw. der Abstand zwischen der Schrödingergleichung und der Tangentialebene $T_{\mu(t)}M$ 
 \begin{align}\label{Residuum}
     || i\underbrace{\sum_k \dot{\mu}_k\ket{\partial_{\mu_k}\Psi}}_{\frac{d}{dt}\ket{\Psi}} - \hat{H}\ket{\Psi} || 
 \end{align}
@@ -105,7 +116,9 @@ Eine explizite Herleitung ist in [P. Kramer and M. Saraceno, Geometry of the Tim
 (Springer-Verlag, Berlin) (1981)]\cite{noauthor_2008-dn} und subsequent in Jutho Haegeman et 
 al. „Time-Dependent Variational Principle for Quantum Lattices“\cite{Haegeman_2011} zu finden.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Wahl der Wellenfunktion für einen klassischen Ansatz}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Ansatz_Wellen-Funktiom
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Wahl der Wellenfunktion für einen semi-klassischen Ansatz}
 \begin{wrapfigure}{r}{0.4\textwidth}
     \centering
     \includegraphics[width = 0.35\textwidth]{Abbildungen/bloch-sphere.png}
@@ -113,20 +126,24 @@ al. „Time-Dependent Variational Principle for Quantum Lattices“\cite{Haegema
     \label{fig:qubit}
 \end{wrapfigure}
 Zur Vereinfachung werden alle Kernspins (wie der Elektronenspin) als 1/2-Spins angenommen. 
-Die Wellenfunktion $\ket{\Psi}=\ket{\Psi(\mu_1(t),...,\mu_n(t)}$ enthält die zeitabhängigen Parameter $\mu_i(t)$ und realisiert einen 
-kohärenten Zustand. Wir nutzen die Geometrie des 1/2-Spins aus und verwenden zur Darstellung die bekannte \textbf{Bloch-Sphäre}. 
-Ähnlich wie die komplexe e-Funktion dank trigonemtrische Eigenschaften einen Kreis auf der Zahlenebene abbilden kann, ist es auch möglich,
-jeden Punkt auf einer Kugel zu beschreiben. Die folgende unnormierte Wellenfunktion 
+Wir nutzen die Geometrie des 1/2-Spins aus und verwenden zur Darstellung die bekannte \textbf{Bloch-Sphäre}. 
+Ähnlich wie die komplexe e-Funktion dank trigonometrischer Eigenschaften einen Kreis auf der Zahlenebene abbilden kann, ist es auch möglich,
+jeden Punkt auf einer Kugeloberfläche zu beschreiben. Die folgende Wellenfunktion 
 \begin{align}\label{klassischer_Ansatz}
-    \ket{\Psi(\mu_1(t),...,\mu_n(t))} &= \prod_{i=1}^{n} e^{\mu_i\thinspace S_i^-}\ket{\uparrow,...,\uparrow}
+    \ket{\Psi(\mu_1(t),...,\mu_n(t))} &= \frac{1}{N}\prod_{i=1}^{n} e^{\mu_i\thinspace S_i^-}\ket{\uparrow,...,\uparrow}
 \end{align}
-wird in den folgenden Abschnitten Verwendung finden mit dem Nomrierungsfaktor
+mit dem Normierungsfaktor
 \begin{align}
     N &= \prod_{i=1}^{n} \frac{1}{\sqrt{1+\mu_i\muk_i}}.
 \end{align}
-Es wird der Ansatz aus Gl. (\ref{klassischer_Ansatz}) verwendet ohne den Normierungsfaktor, da das TDVP nur eine analytische Wellenfunktion variieren kann,
-der Normierungsfaktor ist durch das Auftauchen von $\mu_i$ und dem konjugierten $\muk_i$ nicht analytisch. Es kann aber immer noch auf die 
-verallgemeinerte Euler-Lagrange-Gleichungen Gl. (\ref{verallgemeinerter_Euler_Lagrange}) zurückgegriffen werden.
+beschreibt gerade einen Produktzustand aus $n$ Bloch-Sphären und wird mit den komplexen Parametern $\mu_i(t)$ parametrisiert. Dabei beschreibt der
+Betrag $|\mu|$ die Anteile von $|\uparrow\rangle$ und $|\downarrow\rangle$ in der Wellenfunktion jeweils. Der Zustand $|\uparrow\rangle$ kann durch $\mu=0$ 
+und der Zustand $|\downarrow\rangle$ als Grenzwert für $|\mu|\rightarrow \infty$ erreicht werden; dadurch steht der Betrag $|\mu|$ in Beziehung mit
+mit dem Winkel $\Theta$ in \autoref{fig:qubit}. Der Imaginärteil $Im[\mu]$ beschreibt dabei die Phase der Zustände und steht deshalb ebenfalls in 
+Beziehung mit dem Winkel $\Phi$ in \autoref{fig:qubit}.\\
+Es wird der Ansatz aus Gl. (\ref{klassischer_Ansatz}) ohne den Normierungsfaktor verwendet, da das TDVP nur eine analytische Wellenfunktion variieren kann,
+der Normierungsfaktor ist aber durch das Auftauchen von $\mu_i$ und dem konjugierten $\muk_i$ nicht analytisch. Es kann aber immer noch auf die 
+verallgemeinerte Euler-Lagrange-Gleichungen Gl. (\ref{verallgemeinerter_Euler_Lagrange}) zurückgegriffen werden.\\
 %%%%%%%%%
 %%%%%%%%%
 \section{ein 1/2-Spin im konstanten Magnetfeld}
@@ -141,10 +158,9 @@ Summand des Zentralspinmodells betrachtet:
 \noindent Im folgenden haben wir uns die Eigenschaft des 1/2-Spins $\left(S^{-}\right)^{n}\ket{\uparrow}=0$  (n = 2,3,...) verwendet.
 Dieser Ansatz deckt unter Berücksichtigung der Normierung und der Phasenfreiheit den gesamten Hilbertraum des 1/2-Spins ab
 \begin{align}
-    \ket{\mu} &= e^{i\phi}\frac{1}{\sqrt{1 + \mu\muk}}\ket{\uparrow} + e^{i\phi}\frac{\mu}{\sqrt{1 + \mu\muk}}\ket{\downarrow}
+    \ket{\mu} &= e^{i\phi}\frac{1}{\sqrt{1 + \mu\muk}}\ket{\uparrow} + e^{i\phi}\frac{\mu}{\sqrt{1 + \mu\muk}}\ket{\downarrow}.
 \end{align}
-wobei der Zustand $e^{i\phi}\ket{\uparrow}$ durch $\mu=0$ und der Zustand $e^{i\phi}\ket{\downarrow}$ als Grenzwert für $|\mu|\rightarrow 0$ erreicht 
-werden können. Der Hamilton-Operator für einen Spin in einem Magnetfeld $\vec{B}$ lautet
+Der Hamilton-Operator für einen Spin in einem Magnetfeld $\vec{B}$ lautet
 \begin{align}
     \hat{H}_1 &= \vec{b}\hat{\vec{S}} = \left(b_x\hat{S}_x+b_y\hat{S}_y+b_z\hat{S}_z \right) \\
     &= \frac{b_x}{2}\Bigl(\ket{\downarrow}\!\bra{\uparrow}+\ket{\uparrow}\!\bra{\downarrow}\Bigr) \\
@@ -223,7 +239,7 @@ Wird die Phasenfreiheit und die Normierung berücksichtigt und unter einem kompl
 lässt sich erkennen, dass $\alpha_1$,$\alpha_2$ und $\alpha_3$ unabhängig sind, aber $\alpha_4$ gerade 
 von $\alpha_1$,$\alpha_2$ und $\alpha_3$ abhängig ist. Dadurch wird der Hilbertraum auf einen Unterraum beschränkt. Der Hamiltonoperator 
 des Zentralspinmodells für den zwei 1/2-Spin Fall lautet
-\begin{align}
+\begin{align}\label{zweiSpinHamilton}
     \hat{H}_{CSM} &= \vec{b}\hat{\vec{S}} +  z\vec{b}\hat{\vec{I}} + \alpha \hat{\vec{S}}\hat{\vec{I}}\space.
 \end{align}
 Damit ergibt sich für die effektive Hamilton-Funktion: 
@@ -259,14 +275,14 @@ Zudem ergibt sich die modifizierte Gram-Matrix
 die diesmal zweidimensional ist.
 \noindent Nun können die Euler-Lagrange-Gleichungen aufgestellt werden:
 \begin{align}
-    i\dot{\mu_1} &= \sum_{j}\left(G_{1j}\right)^{-1}\thinspace \partial_{\overline{\mu_j}}\mathcal{H}  \\
+    i\dot{\mu}_1 &= \sum_{j}\left(G_{1j}\right)^{-1}\thinspace \partial_{\overline{\mu_j}}\mathcal{H}  \\
     &=\underbrace{\frac{1}{2}b_x(1-\mu_1^2) + \frac{i}{2}b_y(1+\mu_1^2) -\mu_1 b_z}_{\text{Ein-Spin-Präzession um } \vec{b}} +\underbrace{\frac{\alpha}{2} \frac{(\mu_2-\mu_1)(1+\mu_1\muk_2)}{1+\mu_2\muk_2}}_{\text{Ein-Spin-Präzession um } \frac{\bra{\Psi}\hat{\vec{I}}\ket{\Psi}}{\N}  } \label{DGL_klassisch_S}   
 \end{align}
 und in analoger Weise 
 \begin{align}
-    i\dot{\mu_2} &= \underbrace{\frac{z}{2}b_x(1-\mu_2^2) + \frac{iz}{2}b_y(1+\mu_2^2) -\mu_2 z b_z}_{\text{Ein-Spin-Präzession um } \vec{b}} +\underbrace{\frac{\alpha}{2} \frac{(\mu_1-\mu_2)(1+\mu_2\muk_1)}{1+\mu_1\muk_1}}_{\text{Ein-Spin-Präzession um } \frac{\bra{\Psi}\hat{\vec{S}}\ket{\Psi}}{\N}  }.\label{DGL_klassisch_I}
+    i\dot{\mu}_2 &= \underbrace{\frac{z}{2}b_x(1-\mu_2^2) + \frac{iz}{2}b_y(1+\mu_2^2) -\mu_2 z b_z}_{\text{Ein-Spin-Präzession um } \vec{b}} +\underbrace{\frac{\alpha}{2} \frac{(\mu_1-\mu_2)(1+\mu_2\muk_1)}{1+\mu_1\muk_1}}_{\text{Ein-Spin-Präzession um } \frac{\bra{\Psi}\hat{\vec{S}}\ket{\Psi}}{\N}  }.\label{DGL_klassisch_I}
 \end{align}
-\noindent Aufgrund der Linearität der Differentialgleichungen ist dank Gl. (\ref{Larmor}) zu erkennen, dass es sich bei den ersten
+\noindent Aufgrund der Linearität der Differentialgleichungen ist beim Vergleich mit Gl. (\ref{Larmor}) zu erkennen, dass es sich bei den ersten
 beiden Summanden um die Lösung aus dem Ein-Spin-Fall im Magnetfeld handelt. Nun fehlt es noch zu beweisen, dass der letztere Summand tatsächlich die 
 Präzession um den Spin-Erwartungswert des jeweilig anderen Spins beschreibt bzw. das Overhausener Feld. Dies kann gezeigt werden, wenn in 
 der Gl. (\ref{Larmor}) die $b_{x,y,z}$ durch $\alpha\frac{\bra{\Psi}\hat{I}_{x,y,z}\ket{\Psi}}{\N}$ ausgetauscht
@@ -280,7 +296,7 @@ denn einfaches Auflösen führt ebenfalls zu
 \begin{align}
     \frac{\alpha}{2} \frac{(\mu_2-\mu_1)(1+\mu_1\muk_2)}{1+\mu_2\muk_2}.
 \end{align}
-Dies entspricht gerade dem zweiten Summanden in Gl. (\ref{DGL_klassisch_S}) und (\ref{DGL_klassisch_I}).
+Dies entspricht gerade dem letzten Summanden in Gl. (\ref{DGL_klassisch_S}) und (\ref{DGL_klassisch_I}).
 Hier lässt sich erkennen, dass die $\alpha\frac{\bra{\Psi}\hat{I_i}\ket{\Psi}}{\N}$ die Rolle des Magnetfeldes $\vec{b}$ in der Ein-Spin-Lösung 
 übernehmen. Wir erhalten dann aus Symmetriegründen:
 \begin{align}
@@ -308,13 +324,11 @@ Wird  die Phasenfreiheit und die Normierung berücksichtigt und unter einem komp
     + \underbrace{\mu_0\mu_1}_{\alpha_2}\ket{\downarrow \uparrow} + \underbrace{\mu_0\mu_2}_{\alpha_3}\ket{\uparrow \downarrow} 
     + \underbrace{\mu_0(\mu_1\mu_2 + \mu_{12})}_{\alpha_4}\ket{\downarrow\downarrow}
 \end{align}
-wie in \autoref{ueberlapp_klassisch} lässt sich erkennen, dass die Parameter voneinander wieder nicht unabhängig sind bzw. dass die 
-Hyperebene für den $\alpha_1 = \mu_0 = 0$ nicht erreicht werden kann. Dementgegend sind dafür die $\alpha_4$-Werte durch den zusätzlichen 
-Parameter $\mu_{12}$ weitestgehend unabhängig, wodurch bis auf die Hyperebene alle Zustände erreicht werden sollten.    
-
-Aufgrund der Tatsache, dass bei einem $\vec{B}$-Feld in beliebiger Richtung, sich die Rechnung und Ergebnisse außerordentlich verkomplizieren, ohne 
+Im Gegensatz zum klassischen Ansatz lässt sich erkennen, dass alle Parameter $\alpha_i$, einschließlich $\alpha_4$, unabhängig sind. Somit ist der gesamte
+Hilbertraumabgedeckt und die exakte Lösung zu erwarten.\\
+Aufgrund der Tatsache, dass bei einem $\vec{b}$-Feld in beliebiger Richtung, sich die Rechnung und Ergebnisse außerordentlich verkomplizieren, ohne 
 wirklich neue Erkenntnis zu bringen, wird das Magnetfeld in z-Richtung ausgerichtet. Somit vereinfacht sich der 
-Hamiltonian zu:
+Hamiltonian (\ref{zweSpinHamilton}) zu:
 \begin{align}
     \hat{H} &= \vec{b}\hat{\vec{S}}_z +  z\vec{b}\hat{\vec{I}}_z + \alpha \hat{\vec{S}}\hat{\vec{I}}
 \end{align}
