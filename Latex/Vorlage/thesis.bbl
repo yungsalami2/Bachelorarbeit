@@ -1,0 +1,1320 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{10.1145/167088.167097}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=36f07714b3f63f9e6b17f2c96124e0f0}{%
+           family={Bernstein},
+           familyi={B\bibinitperiod},
+           given={Ethan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=64b47afeffedcc077d514b035c0d652e}{%
+           family={Vazirani},
+           familyi={V\bibinitperiod},
+           given={Umesh},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Diego, California, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{62514a20b64142c2e065c2143d4b61d3}
+      \strng{fullhash}{62514a20b64142c2e065c2143d4b61d3}
+      \strng{bibnamehash}{62514a20b64142c2e065c2143d4b61d3}
+      \strng{authorbibnamehash}{62514a20b64142c2e065c2143d4b61d3}
+      \strng{authornamehash}{62514a20b64142c2e065c2143d4b61d3}
+      \strng{authorfullhash}{62514a20b64142c2e065c2143d4b61d3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Twenty-Fifth Annual ACM Symposium on Theory of Computing}
+      \field{isbn}{0897915917}
+      \field{series}{STOC '93}
+      \field{title}{Quantum Complexity Theory}
+      \field{year}{1993}
+      \field{pages}{11\bibrangedash 20}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/167088.167097
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/167088.167097
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/167088.167097
+      \endverb
+    \endentry
+    \entry{Bonadeo1998-nr}{article}{}
+      \name{author}{6}{}{%
+        {{hash=c0c3c26a0177605110583801f13f30c5}{%
+           family={Bonadeo},
+           familyi={B\bibinitperiod},
+           given={N\bibnamedelima H},
+           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=7abd8407934158185f35e1fd63653135}{%
+           family={Erland},
+           familyi={E\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=00066c11beb96106d0696ddb64f59238}{%
+           family={Gammon},
+           familyi={G\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=08ba9c46194afb6b766124b59ef9d7bf}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=406eea6e361a1c8f9381cb71d2d64947}{%
+           family={Katzer},
+           familyi={K\bibinitperiod},
+           given={D\bibnamedelima S},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7bb8dc28cabc0c6ee17c1e48385548c3}{%
+           family={Steel},
+           familyi={S\bibinitperiod},
+           given={D\bibnamedelima G},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {United States}%
+      }
+      \strng{namehash}{ea73ae98b3a371c5c946df5248a28750}
+      \strng{fullhash}{791790163ac798a03fe792f14f70f124}
+      \strng{bibnamehash}{ea73ae98b3a371c5c946df5248a28750}
+      \strng{authorbibnamehash}{ea73ae98b3a371c5c946df5248a28750}
+      \strng{authornamehash}{ea73ae98b3a371c5c946df5248a28750}
+      \strng{authorfullhash}{791790163ac798a03fe792f14f70f124}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Picosecond optical excitation was used to coherently control the excitation in a single quantum dot on a time scale that is short compared with the time scale for loss of quantum coherence. The excitonic wave function was manipulated by controlling the optical phase of the two-pulse sequence through timing and polarization. Wave function engineering techniques, developed in atomic and molecular systems, were used to monitor and control a nonstationary quantum mechanical state composed of a superposition of eigenstates. The results extend the concept of coherent control in semiconductors to the limit of a single quantum system in a zero-dimensional quantum dot.}
+      \field{journaltitle}{Science}
+      \field{month}{11}
+      \field{number}{5393}
+      \field{title}{Coherent optical control of the quantum state of a single quantum Dot}
+      \field{volume}{282}
+      \field{year}{1998}
+      \field{pages}{1473\bibrangedash 1476}
+      \range{pages}{4}
+    \endentry
+    \entry{BROECKHOVE1988547}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c92c04fd79f5aee2574b6c6a524aa78d}{%
+           family={Broeckhove},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e6f84ff02a32278d6ba2280e9b6ed922}{%
+           family={Lathouwers},
+           familyi={L\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8133d3b093a830fe7984acf102a1492c}{%
+           family={Kesteloot},
+           familyi={K\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=7ec332fd62c682108b5ef35ff8c38e29}{%
+           family={{Van Leuven}},
+           familyi={V\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e98988cb80ebacbfcc0c9702bab24d9}
+      \strng{fullhash}{0c36be2cff852adb15104c8e9a838516}
+      \strng{bibnamehash}{0e98988cb80ebacbfcc0c9702bab24d9}
+      \strng{authorbibnamehash}{0e98988cb80ebacbfcc0c9702bab24d9}
+      \strng{authornamehash}{0e98988cb80ebacbfcc0c9702bab24d9}
+      \strng{authorfullhash}{0c36be2cff852adb15104c8e9a838516}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We consider the relationship between three variational principles which generate approximate time evolution in a parametrized manifold of wavefunctions. These are: the McLachlan variational principle, the Dirac-Frenkel variational principle and the time-dependent variational principle. We show that if the manifold can be parametrized by pairs of “complementary” parameters, the abovementioned principles are equivalent. The condition of complementarity, which is a sufficient one, is demonstrated to be satisfied in a number of important applications. However, a case of non-equivalence in the recent literature warns against liberal assumptions about the equivalence of the time-dependent variational principles.}
+      \field{issn}{0009-2614}
+      \field{journaltitle}{Chemical Physics Letters}
+      \field{number}{5}
+      \field{title}{On the equivalence of time-dependent variational principles}
+      \field{volume}{149}
+      \field{year}{1988}
+      \field{pages}{547\bibrangedash 550}
+      \range{pages}{4}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0009-2614(88)80380-4
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0009261488803804
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0009261488803804
+      \endverb
+    \endentry
+    \entry{Dirac1930-fc}{article}{}
+      \name{author}{1}{}{%
+        {{hash=81a54cc24a20dffceb9c538a6df77483}{%
+           family={Dirac},
+           familyi={D\bibinitperiod},
+           given={P\bibnamedelima A\bibnamedelima M},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press (CUP)}%
+      }
+      \strng{namehash}{81a54cc24a20dffceb9c538a6df77483}
+      \strng{fullhash}{81a54cc24a20dffceb9c538a6df77483}
+      \strng{bibnamehash}{81a54cc24a20dffceb9c538a6df77483}
+      \strng{authorbibnamehash}{81a54cc24a20dffceb9c538a6df77483}
+      \strng{authornamehash}{81a54cc24a20dffceb9c538a6df77483}
+      \strng{authorfullhash}{81a54cc24a20dffceb9c538a6df77483}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{For dealing with atoms involving many electrons the accurate quantum theory, involving a solution of the wave equation in many-dimensional space, is far too complicated to be practicable. One must therefore resort to approximate methods. The best of these is Hartree's method of the self-consistent field. Even this, however, is hardly practicable when one has to deal with very many electrons, so that one then requires a still simpler and rougher method. Such a method is provided by Thomas' atomic model, in which the electrons are regarded as forming a perfect gas satisfying the Fermi statistics and occupying the region of phase space of lowest energy. This region of phase space is assumed to be saturated, with two electrons with opposite spins in each volume (2$\pi$h)3, and the remainder is assumed to be empty. Although this model hitherto has not been justified theoretically, it seems to be a plausible approximation for the interior of a heavy atom and one may expect it to give with some accuracy the distribution of electric charge there.}
+      \field{journaltitle}{Math. proc. Camb. Philos. Soc.}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{Note on exchange phenomena in the Thomas atom}
+      \field{volume}{26}
+      \field{year}{1930}
+      \field{pages}{376\bibrangedash 385}
+      \range{pages}{10}
+    \endentry
+    \entry{Dyakonov2008-ub}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=b69e9edad03ba20d16a7b0b022d94104}{%
+           family={Dyakonov},
+           familyi={D\bibinitperiod},
+           given={Mikhail\bibnamedelima I},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Germany}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{b69e9edad03ba20d16a7b0b022d94104}
+      \strng{fullhash}{b69e9edad03ba20d16a7b0b022d94104}
+      \strng{bibnamehash}{b69e9edad03ba20d16a7b0b022d94104}
+      \strng{editorbibnamehash}{b69e9edad03ba20d16a7b0b022d94104}
+      \strng{editornamehash}{b69e9edad03ba20d16a7b0b022d94104}
+      \strng{editorfullhash}{b69e9edad03ba20d16a7b0b022d94104}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{edition}{2008}
+      \field{month}{8}
+      \field{series}{Springer Series in Solid-State Sciences}
+      \field{title}{Spin physics in semiconductors}
+      \field{year}{2008}
+    \endentry
+    \entry{Elzerman2004-wu}{article}{}
+      \name{author}{6}{}{%
+        {{hash=fb572aefc31da22f88bd06459d6d0980}{%
+           family={Elzerman},
+           familyi={E\bibinitperiod},
+           given={J\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=205d73a028e4793fefdd098845c8851f}{%
+           family={Hanson},
+           familyi={H\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6fd6600a8a73bde9ebab4d0e8726f855}{%
+           family={Willems\bibnamedelimb Van\bibnamedelima Beveren},
+           familyi={W\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={L\bibnamedelima H},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=5417b8f5f1efb02dfdda2ed3ccfc3d9b}{%
+           family={Witkamp},
+           familyi={W\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ce80bedea21b4475d781de8b597664ef}{%
+           family={Vandersypen},
+           familyi={V\bibinitperiod},
+           given={L\bibnamedelima M\bibnamedelima K},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=e1c7a509c799280c6a9de329476d0c91}{%
+           family={Kouwenhoven},
+           familyi={K\bibinitperiod},
+           given={L\bibnamedelima P},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {England}%
+      }
+      \strng{namehash}{b3e80766742be5f130da0cbba0089f04}
+      \strng{fullhash}{c74f96627cfd8b622f89778aba9e11b0}
+      \strng{bibnamehash}{b3e80766742be5f130da0cbba0089f04}
+      \strng{authorbibnamehash}{b3e80766742be5f130da0cbba0089f04}
+      \strng{authornamehash}{b3e80766742be5f130da0cbba0089f04}
+      \strng{authorfullhash}{c74f96627cfd8b622f89778aba9e11b0}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Spin is a fundamental property of all elementary particles. Classically it can be viewed as a tiny magnetic moment, but a measurement of an electron spin along the direction of an external magnetic field can have only two outcomes: parallel or anti-parallel to the field. This discreteness reflects the quantum mechanical nature of spin. Ensembles of many spins have found diverse applications ranging from magnetic resonance imaging to magneto-electronic devices, while individual spins are considered as carriers for quantum information. Read-out of single spin states has been achieved using optical techniques, and is within reach of magnetic resonance force microscopy. However, electrical read-out of single spins has so far remained elusive. Here we demonstrate electrical single-shot measurement of the state of an individual electron spin in a semiconductor quantum dot. We use spin-to-charge conversion of a single electron confined in the dot, and detect the single-electron charge using a quantum point contact; the spin measurement visibility is approximately 65\%. Furthermore, we observe very long single-spin energy relaxation times (up to approximately 0.85 ms at a magnetic field of 8 T), which are encouraging for the use of electron spins as carriers of quantum information.}
+      \field{journaltitle}{Nature}
+      \field{month}{7}
+      \field{number}{6998}
+      \field{title}{Single-shot read-out of an individual electron spin in a quantum dot}
+      \field{volume}{430}
+      \field{year}{2004}
+      \field{pages}{431\bibrangedash 435}
+      \range{pages}{5}
+    \endentry
+    \entry{PhysRevB.70.205327}{article}{}
+      \name{author}{2}{}{%
+        {{hash=059c3d3d1b75cdc7bdf9bfdf26f2c14e}{%
+           family={Erlingsson},
+           familyi={E\bibinitperiod},
+           given={Sigurdur\bibnamedelima I.},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=3e466d53500fc85855aa3ee7e00b2133}{%
+           family={Nazarov},
+           familyi={N\bibinitperiod},
+           given={Yuli\bibnamedelima V.},
+           giveni={Y\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{26191c60ec0ca4ab8c03ccfd60976424}
+      \strng{fullhash}{26191c60ec0ca4ab8c03ccfd60976424}
+      \strng{bibnamehash}{26191c60ec0ca4ab8c03ccfd60976424}
+      \strng{authorbibnamehash}{26191c60ec0ca4ab8c03ccfd60976424}
+      \strng{authornamehash}{26191c60ec0ca4ab8c03ccfd60976424}
+      \strng{authorfullhash}{26191c60ec0ca4ab8c03ccfd60976424}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{20}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{11}
+      \field{title}{Evolution of localized electron spin in a nuclear spin environment}
+      \field{volume}{70}
+      \field{year}{2004}
+      \field{pages}{205327}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.70.205327
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.70.205327
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.70.205327
+      \endverb
+    \endentry
+    \entry{Fokina_2010}{article}{}
+      \name{author}{9}{}{%
+        {{hash=ef3cc69d785d41aa02dbee916fe9ca97}{%
+           family={Fokina},
+           familyi={F\bibinitperiod},
+           given={L.\bibnamedelimi V.},
+           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=83a38d79b775e297c1a0fd34170f3cdb}{%
+           family={Yugova},
+           familyi={Y\bibinitperiod},
+           given={I.\bibnamedelimi A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3b7d5be842a7fee7d929f9228b069a22}{%
+           family={Yakovlev},
+           familyi={Y\bibinitperiod},
+           given={D.\bibnamedelimi R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=42ec230cd634ec58df8463339111964e}{%
+           family={Glazov},
+           familyi={G\bibinitperiod},
+           given={M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=84bcec0d1a30e988a40a8df100299b6a}{%
+           family={Akimov},
+           familyi={A\bibinitperiod},
+           given={I.\bibnamedelimi A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=54a332d31a2df3ca6b3fbc84e37ff6dd}{%
+           family={Greilich},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f9cc2fec21c21023f53f1969f6e54de0}{%
+           family={Reuter},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cb25e676d83c373865a1fc8aa67462c9}{%
+           family={Wieck},
+           familyi={W\bibinitperiod},
+           given={A.\bibnamedelimi D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=044c97393671993374bc773cccd22207}{%
+           family={Bayer},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c028e246622514ac57c87b7d118fb8f5}
+      \strng{fullhash}{bd23c9c32449e9ca1505ec798acd41f4}
+      \strng{bibnamehash}{c028e246622514ac57c87b7d118fb8f5}
+      \strng{authorbibnamehash}{c028e246622514ac57c87b7d118fb8f5}
+      \strng{authornamehash}{c028e246622514ac57c87b7d118fb8f5}
+      \strng{authorfullhash}{bd23c9c32449e9ca1505ec798acd41f4}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{19}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{5}
+      \field{title}{Spin dynamics of electrons and holes in $\text{InGaAs}/\text{GaAs}$ quantum wells at millikelvin temperatures}
+      \field{volume}{81}
+      \field{year}{2010}
+      \field{pages}{195304}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.81.195304
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.81.195304
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.81.195304
+      \endverb
+    \endentry
+    \entry{PMID:17901328}{article}{}
+      \name{author}{8}{}{%
+        {{hash=54a332d31a2df3ca6b3fbc84e37ff6dd}{%
+           family={Greilich},
+           familyi={G\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=da1a608f4591519fdd9637d5c8e76a9f}{%
+           family={Shabaev},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3b7d5be842a7fee7d929f9228b069a22}{%
+           family={Yakovlev},
+           familyi={Y\bibinitperiod},
+           given={DR},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a278906a826e6751b0b29754a7954989}{%
+           family={Efros},
+           familyi={E\bibinitperiod},
+           given={Al\bibnamedelima L},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=83a38d79b775e297c1a0fd34170f3cdb}{%
+           family={Yugova},
+           familyi={Y\bibinitperiod},
+           given={IA},
+           giveni={I\bibinitperiod}}}%
+        {{hash=f9cc2fec21c21023f53f1969f6e54de0}{%
+           family={Reuter},
+           familyi={R\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cb25e676d83c373865a1fc8aa67462c9}{%
+           family={Wieck},
+           familyi={W\bibinitperiod},
+           given={AD},
+           giveni={A\bibinitperiod}}}%
+        {{hash=044c97393671993374bc773cccd22207}{%
+           family={Bayer},
+           familyi={B\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2c5f0c08b41c8a7d7a6e8d373213193}
+      \strng{fullhash}{ab71c899c78c1f76d1a9f5fd4fb3ff34}
+      \strng{bibnamehash}{a2c5f0c08b41c8a7d7a6e8d373213193}
+      \strng{authorbibnamehash}{a2c5f0c08b41c8a7d7a6e8d373213193}
+      \strng{authornamehash}{a2c5f0c08b41c8a7d7a6e8d373213193}
+      \strng{authorfullhash}{ab71c899c78c1f76d1a9f5fd4fb3ff34}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The hyperfine interaction of an electron with the nuclei is considered as the primary obstacle to coherent control of the electron spin in semiconductor quantum dots. We show, however, that the nuclei in singly charged quantum dots act constructively by focusing the electron spin precession about a magnetic field into well-defined modes synchronized with a laser pulse protocol. In a dot with a synchronized electron, the light-stimulated fluctuations of the hyperfine nuclear field acting on the electron are suppressed. The information about electron spin precession is imprinted in the nuclei and thereby can be stored for tens of minutes in darkness. The frequency focusing drives an electron spin ensemble into dephasing-free subspaces with the potential to realize single frequency precession of the entire ensemble.}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science (New York, N.Y.)}
+      \field{month}{9}
+      \field{number}{5846}
+      \field{title}{Nuclei-induced frequency focusing of electron spin coherence}
+      \field{volume}{317}
+      \field{year}{2007}
+      \field{pages}{1896\bibrangedash 1899}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.1146850
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1126/science.1146850
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1126/science.1146850
+      \endverb
+    \endentry
+    \entry{PhysRevB.89.045317}{article}{}
+      \name{author}{2}{}{%
+        {{hash=90918d78fd50982c1c8193e96aa80597}{%
+           family={Hackmann},
+           familyi={H\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f1d070bd28dd03db2b142bee681c0ac2}{%
+           family={Anders},
+           familyi={A\bibinitperiod},
+           given={Frithjof\bibnamedelima B.},
+           giveni={F\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{3b6233741ca10d577c2434d1aa5a404e}
+      \strng{fullhash}{3b6233741ca10d577c2434d1aa5a404e}
+      \strng{bibnamehash}{3b6233741ca10d577c2434d1aa5a404e}
+      \strng{authorbibnamehash}{3b6233741ca10d577c2434d1aa5a404e}
+      \strng{authornamehash}{3b6233741ca10d577c2434d1aa5a404e}
+      \strng{authorfullhash}{3b6233741ca10d577c2434d1aa5a404e}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{1}
+      \field{title}{Spin noise in the anisotropic central spin model}
+      \field{volume}{89}
+      \field{year}{2014}
+      \field{pages}{045317}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.89.045317
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.89.045317
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.89.045317
+      \endverb
+    \endentry
+    \entry{Haegeman_2011}{article}{}
+      \name{author}{6}{}{%
+        {{hash=9531e7c6006adecb622581097ff2d509}{%
+           family={Haegeman},
+           familyi={H\bibinitperiod},
+           given={Jutho},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f0fb29b6b2eba9e1bb61064aa432ea7a}{%
+           family={Cirac},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi Ignacio},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=bd3d3f2e126dca66556cac81be469a9d}{%
+           family={Osborne},
+           familyi={O\bibinitperiod},
+           given={Tobias\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=53c53209157c346af83744d87a56056a}{%
+           family={Pi{ž\bibnamedelimb }orn},
+           familyi={P\bibinitperiod},
+           given={Iztok},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5c31632a2096242343b9d67781ec6e27}{%
+           family={Verschelde},
+           familyi={V\bibinitperiod},
+           given={Henri},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1003ae5f362d7f74a9671760817ebb1a}{%
+           family={Verstraete},
+           familyi={V\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society ({APS})}%
+      }
+      \strng{namehash}{1d2bd47bada416779c900020f2866a24}
+      \strng{fullhash}{378a32f9374e5aadd97a6630134a1e0b}
+      \strng{bibnamehash}{1d2bd47bada416779c900020f2866a24}
+      \strng{authorbibnamehash}{1d2bd47bada416779c900020f2866a24}
+      \strng{authornamehash}{1d2bd47bada416779c900020f2866a24}
+      \strng{authorfullhash}{378a32f9374e5aadd97a6630134a1e0b}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{8}
+      \field{number}{7}
+      \field{title}{Time-Dependent Variational Principle for Quantum Lattices}
+      \field{volume}{107}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1103/physrevlett.107.070601
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103%2Fphysrevlett.107.070601
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103%2Fphysrevlett.107.070601
+      \endverb
+    \endentry
+    \entry{Hanson2008-tn}{article}{}
+      \name{author}{5}{}{%
+        {{hash=205d73a028e4793fefdd098845c8851f}{%
+           family={Hanson},
+           familyi={H\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=62dbdae04698cadc9dc5a68ce3917958}{%
+           family={Dobrovitski},
+           familyi={D\bibinitperiod},
+           given={V\bibnamedelima V},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=13e160c7d7348373498b1279e69c778f}{%
+           family={Feiguin},
+           familyi={F\bibinitperiod},
+           given={A\bibnamedelima E},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=96bb68d4a184bc60dc1563a3642ecd3b}{%
+           family={Gywat},
+           familyi={G\bibinitperiod},
+           given={O},
+           giveni={O\bibinitperiod}}}%
+        {{hash=78cfdb67ecd10016baa5bc4b0b3cc2a0}{%
+           family={Awschalom},
+           familyi={A\bibinitperiod},
+           given={D\bibnamedelima D},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {United States}%
+      }
+      \strng{namehash}{37360b21b3512a8b8dade18c4032223f}
+      \strng{fullhash}{c0a1e689013380bab0cba6d37f060b5d}
+      \strng{bibnamehash}{37360b21b3512a8b8dade18c4032223f}
+      \strng{authorbibnamehash}{37360b21b3512a8b8dade18c4032223f}
+      \strng{authornamehash}{37360b21b3512a8b8dade18c4032223f}
+      \strng{authorfullhash}{c0a1e689013380bab0cba6d37f060b5d}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Phase coherence is a fundamental concept in quantum mechanics. Understanding the loss of coherence is paramount for future quantum information processing. We studied the coherent dynamics of a single central spin (a nitrogen-vacancy center) coupled to a bath of spins (nitrogen impurities) in diamond. Our experiments show that both the internal interactions of the bath and the coupling between the central spin and the bath can be tuned in situ, allowing access to regimes with surprisingly different behavior. The observed dynamics are well explained by analytics and numerical simulations, leading to valuable insight into the loss of coherence in spin systems. These measurements demonstrate that spins in diamond provide an excellent test bed for models and protocols in quantum information.}
+      \field{journaltitle}{Science}
+      \field{month}{3}
+      \field{number}{5874}
+      \field{title}{Coherent dynamics of a single spin interacting with an adjustable spin bath}
+      \field{volume}{320}
+      \field{year}{2008}
+      \field{pages}{352\bibrangedash 355}
+      \range{pages}{4}
+    \endentry
+    \entry{noauthor_2008-dn}{incollection}{}
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Geometry of the {Time-Dependent} Variational Principle in Quantum Mechanics}
+      \field{title}{Introduction}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 2}
+      \range{pages}{2}
+    \endentry
+    \entry{NatalieJaeschke}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=90cf3e516ed0ccef60ed65d23a418036}{%
+           family={Jäschke},
+           familyi={J\bibinitperiod},
+           given={Natalie},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {TU Dortmund}%
+      }
+      \strng{namehash}{90cf3e516ed0ccef60ed65d23a418036}
+      \strng{fullhash}{90cf3e516ed0ccef60ed65d23a418036}
+      \strng{bibnamehash}{90cf3e516ed0ccef60ed65d23a418036}
+      \strng{authorbibnamehash}{90cf3e516ed0ccef60ed65d23a418036}
+      \strng{authornamehash}{90cf3e516ed0ccef60ed65d23a418036}
+      \strng{authorfullhash}{90cf3e516ed0ccef60ed65d23a418036}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Semiclassical Approach to the Spin Dynamics in a Singly Charged Semiconductor Quantum Dot}
+      \field{type}{Dissertation}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.17877/DE290R-20248
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.17877/DE290R-20248
+      \endverb
+    \endentry
+    \entry{PhysRevLett.93.130501}{article}{}
+      \name{author}{6}{}{%
+        {{hash=3c3e592b74c760448e92ee36e02c404b}{%
+           family={Jelezko},
+           familyi={J\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b485c7b85a379319f055bb20320f9c91}{%
+           family={Gaebel},
+           familyi={G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=46d96dc2383f602ee9521ba95ed96d79}{%
+           family={Popa},
+           familyi={P\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=ded38544b376cce887a2475ce5a99411}{%
+           family={Domhan},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6ab080e924c82ee4ea4547b04dfd0b2c}{%
+           family={Gruber},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a3a4bc90ce7f9a04b50cd8c57d459a2c}{%
+           family={Wrachtrup},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{ae85a9e3156950fbe9973207e7eae291}
+      \strng{fullhash}{3bbf4e0478e5456052b1d5a01b6fd456}
+      \strng{bibnamehash}{ae85a9e3156950fbe9973207e7eae291}
+      \strng{authorbibnamehash}{ae85a9e3156950fbe9973207e7eae291}
+      \strng{authornamehash}{ae85a9e3156950fbe9973207e7eae291}
+      \strng{authorfullhash}{3bbf4e0478e5456052b1d5a01b6fd456}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{13}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{9}
+      \field{title}{Observation of Coherent Oscillation of a Single Nuclear Spin and Realization of a Two-Qubit Conditional Quantum Gate}
+      \field{volume}{93}
+      \field{year}{2004}
+      \field{pages}{130501}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.93.130501
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.93.130501
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.93.130501
+      \endverb
+    \endentry
+    \entry{Kane1998-pc}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b7aa654a93a4815683218ea22e113ee7}{%
+           family={Kane},
+           familyi={K\bibinitperiod},
+           given={B\bibnamedelima E},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7aa654a93a4815683218ea22e113ee7}
+      \strng{fullhash}{b7aa654a93a4815683218ea22e113ee7}
+      \strng{bibnamehash}{b7aa654a93a4815683218ea22e113ee7}
+      \strng{authorbibnamehash}{b7aa654a93a4815683218ea22e113ee7}
+      \strng{authornamehash}{b7aa654a93a4815683218ea22e113ee7}
+      \strng{authorfullhash}{b7aa654a93a4815683218ea22e113ee7}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quantum computers promise to exceed the computational efficiency of ordinary classical machines because quantum algorithms allow the execution of certain tasks in fewer steps. But practical implementation of these machines poses a formidable challenge. Here I present a scheme for implementing a quantum-mechanical computer. Information is encoded onto the nuclear spins of donor atoms in doped silicon electronic devices. Logical operations on individual spins are performed using externally applied electric fields, and spin measurements are made using currents of spin-polarized electrons. The realization of such a computer is dependent on future refinements of conventional silicon electronics.}
+      \field{journaltitle}{Nature}
+      \field{month}{5}
+      \field{number}{6681}
+      \field{title}{A silicon-based nuclear spin quantum computer}
+      \field{volume}{393}
+      \field{year}{1998}
+      \field{pages}{133\bibrangedash 137}
+      \range{pages}{5}
+    \endentry
+    \entry{quantumdot_wikimedia}{online}{}
+      \name{author}{1}{}{%
+        {{hash=890a3b39eceaa1779a455b09eec22aee}{%
+           family={Magnunor},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{890a3b39eceaa1779a455b09eec22aee}
+      \strng{fullhash}{890a3b39eceaa1779a455b09eec22aee}
+      \strng{bibnamehash}{890a3b39eceaa1779a455b09eec22aee}
+      \strng{authorbibnamehash}{890a3b39eceaa1779a455b09eec22aee}
+      \strng{authornamehash}{890a3b39eceaa1779a455b09eec22aee}
+      \strng{authorfullhash}{890a3b39eceaa1779a455b09eec22aee}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Atomic resolution scanning transmission electron microscopy image of indium gallium arsenide quantum dot in gallium arsenide.}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/wiki/File:Gaas_inas_quantum_dot.jpg
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/File:Gaas_inas_quantum_dot.jpg
+      \endverb
+    \endentry
+    \entry{RevModPhys.73.357}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bc98b1bb8ca128aa691b01649ae006f0}{%
+           family={Makhlin},
+           familyi={M\bibinitperiod},
+           given={Yuriy},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e0c6489e7e0a35c60587d6aae55094fc}{%
+           family={Schön},
+           familyi={S\bibinitperiod},
+           given={Gerd},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4740ea76c111d9516a8115fd9fa2e44e}{%
+           family={Shnirman},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{fd4963c698d060dcff933c717643e83d}
+      \strng{fullhash}{fd4963c698d060dcff933c717643e83d}
+      \strng{bibnamehash}{fd4963c698d060dcff933c717643e83d}
+      \strng{authorbibnamehash}{fd4963c698d060dcff933c717643e83d}
+      \strng{authornamehash}{fd4963c698d060dcff933c717643e83d}
+      \strng{authorfullhash}{fd4963c698d060dcff933c717643e83d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{5}
+      \field{title}{Quantum-state engineering with Josephson-junction devices}
+      \field{volume}{73}
+      \field{year}{2001}
+      \field{pages}{357\bibrangedash 400}
+      \range{pages}{44}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.73.357
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.73.357
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.73.357
+      \endverb
+    \endentry
+    \entry{PhysRevB.65.205309}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2808564d11d208f96eaa8e4a1d7ed8c2}{%
+           family={Merkulov},
+           familyi={M\bibinitperiod},
+           given={I.\bibnamedelimi A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a278906a826e6751b0b29754a7954989}{%
+           family={Efros},
+           familyi={E\bibinitperiod},
+           given={Al.\bibnamedelimi L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=54247d1014cbca34ea7ad6ccb7e6fb6f}{%
+           family={Rosen},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{2482bbe568784cd2f506253793129737}
+      \strng{fullhash}{2482bbe568784cd2f506253793129737}
+      \strng{bibnamehash}{2482bbe568784cd2f506253793129737}
+      \strng{authorbibnamehash}{2482bbe568784cd2f506253793129737}
+      \strng{authornamehash}{2482bbe568784cd2f506253793129737}
+      \strng{authorfullhash}{2482bbe568784cd2f506253793129737}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{20}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{4}
+      \field{title}{Electron spin relaxation by nuclei in semiconductor quantum dots}
+      \field{volume}{65}
+      \field{year}{2002}
+      \field{pages}{205309}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.65.205309
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.65.205309
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.65.205309
+      \endverb
+    \endentry
+    \entry{Mott1934-lg}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bbd7137cf20d7574a4d2e7ffe56485ef}{%
+           family={Mott},
+           familyi={M\bibinitperiod},
+           given={N\bibnamedelima F},
+           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=953b9f85633a570a1b2ab3462f87522f}{%
+           family={Frenkel},
+           familyi={F\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press (CUP)}%
+      }
+      \strng{namehash}{bc21d37fd8c05c2e4319cfc3dd6d5a14}
+      \strng{fullhash}{bc21d37fd8c05c2e4319cfc3dd6d5a14}
+      \strng{bibnamehash}{bc21d37fd8c05c2e4319cfc3dd6d5a14}
+      \strng{authorbibnamehash}{bc21d37fd8c05c2e4319cfc3dd6d5a14}
+      \strng{authornamehash}{bc21d37fd8c05c2e4319cfc3dd6d5a14}
+      \strng{authorfullhash}{bc21d37fd8c05c2e4319cfc3dd6d5a14}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Math. Gaz.}
+      \field{month}{7}
+      \field{number}{229}
+      \field{title}{Waves mechanics: Advanced general theory. By J. frenkel pp. Viii, 525. 35s. 1934. (oxford)}
+      \field{volume}{18}
+      \field{year}{1934}
+      \field{pages}{208\bibrangedash 209}
+      \range{pages}{2}
+    \endentry
+    \entry{pict}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1323b0596a5197a83e1a4fe294a4b7c1}{%
+           family={Rayhem},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1323b0596a5197a83e1a4fe294a4b7c1}
+      \strng{fullhash}{1323b0596a5197a83e1a4fe294a4b7c1}
+      \strng{bibnamehash}{1323b0596a5197a83e1a4fe294a4b7c1}
+      \strng{authorbibnamehash}{1323b0596a5197a83e1a4fe294a4b7c1}
+      \strng{authornamehash}{1323b0596a5197a83e1a4fe294a4b7c1}
+      \strng{authorfullhash}{1323b0596a5197a83e1a4fe294a4b7c1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bloch sphere; a geometrical representation of a two-level quantum system. Rendered with Asymptote}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/wiki/File:Bloch_Sphere.svg
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/File:Bloch_Sphere.svg
+      \endverb
+    \endentry
+    \entry{PhysRevB.94.094308}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e9ecc07f3956d07a705ccb37f6fff8a2}{%
+           family={Seifert},
+           familyi={S\bibinitperiod},
+           given={Urban},
+           giveni={U\bibinitperiod}}}%
+        {{hash=b98306471de1c761beb2cd45363d2aaa}{%
+           family={Bleicker},
+           familyi={B\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=340efd578b040d81688220e1d99dc35a}{%
+           family={Schering},
+           familyi={S\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3cd631c0664e61fe8830fe4c790bfec5}{%
+           family={Faribault},
+           familyi={F\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bc42b529532473a55c969d57f2d26ecd}{%
+           family={Uhrig},
+           familyi={U\bibinitperiod},
+           given={Götz\bibnamedelima S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{d5ede52f270fc6afd7440c8fe669bfa6}
+      \strng{fullhash}{030395fbb058fbabc12887d133aa358a}
+      \strng{bibnamehash}{d5ede52f270fc6afd7440c8fe669bfa6}
+      \strng{authorbibnamehash}{d5ede52f270fc6afd7440c8fe669bfa6}
+      \strng{authornamehash}{d5ede52f270fc6afd7440c8fe669bfa6}
+      \strng{authorfullhash}{030395fbb058fbabc12887d133aa358a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{9}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{9}
+      \field{title}{Persisting correlations of a central spin coupled to large spin baths}
+      \field{volume}{94}
+      \field{year}{2016}
+      \field{pages}{094308}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.94.094308
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.94.094308
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.94.094308
+      \endverb
+    \endentry
+    \entry{365700}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=a24fb60f0ae3752c34144e38865ecca9}{%
+           family={Shor},
+           familyi={S\bibinitperiod},
+           given={P.W.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a24fb60f0ae3752c34144e38865ecca9}
+      \strng{fullhash}{a24fb60f0ae3752c34144e38865ecca9}
+      \strng{bibnamehash}{a24fb60f0ae3752c34144e38865ecca9}
+      \strng{authorbibnamehash}{a24fb60f0ae3752c34144e38865ecca9}
+      \strng{authornamehash}{a24fb60f0ae3752c34144e38865ecca9}
+      \strng{authorfullhash}{a24fb60f0ae3752c34144e38865ecca9}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 35th Annual Symposium on Foundations of Computer Science}
+      \field{title}{Algorithms for quantum computation: discrete logarithms and factoring}
+      \field{year}{1994}
+      \field{pages}{124\bibrangedash 134}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/SFCS.1994.365700
+      \endverb
+    \endentry
+    \entry{10.1137/S0097539795293172}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7082a9c99d5d51479d4cfba6bbac2d30}{%
+           family={Shor},
+           familyi={S\bibinitperiod},
+           given={Peter\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{2}{%
+        {Society for Industrial}%
+        {Applied Mathematics}%
+      }
+      \strng{namehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{fullhash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{bibnamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authorbibnamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authornamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authorfullhash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A digital computer is generally believed to be an efficient universal computing device; that is, it is believed able to simulate any physical computing device with an increase in computation time by at most a polynomial factor. This may not be true when quantum mechanics is taken into consideration. This paper considers factoring integers and finding discrete logarithms, two problems which are generally thought to be hard on a classical computer and which have been used as the basis of several proposed cryptosystems. Efficient randomized algorithms are given for these two problems on a hypothetical quantum computer. These algorithms take a number of steps polynomial in the input size, e.g., the number of digits of the integer to be factored.}
+      \field{issn}{0097-5397}
+      \field{journaltitle}{SIAM J. Comput.}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer}
+      \field{volume}{26}
+      \field{year}{1997}
+      \field{pages}{1484\bibrangedash 1509}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1137/S0097539795293172
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1137/S0097539795293172
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1137/S0097539795293172
+      \endverb
+      \keyw{discrete logarithms,foundations of quantum mechanics,Church's thesis,Fourier transforms,algorithmic number theory,spin systems,prime factorization,quantum computers}
+    \endentry
+    \entry{Spatzek2011-rn}{article}{}
+      \name{author}{10}{}{%
+        {{hash=947e8a972172676384c6aefe4572f318}{%
+           family={Spatzek},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=54a332d31a2df3ca6b3fbc84e37ff6dd}{%
+           family={Greilich},
+           familyi={G\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d1565292905e7bfee6c084f42b6b3e82}{%
+           family={Economou},
+           familyi={E\bibinitperiod},
+           given={Sophia\bibnamedelima E},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=71aa68a955f1f843b7c8c54861479d10}{%
+           family={Varwig},
+           familyi={V\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4730e862d71c58c41ab13a4d2f53f139}{%
+           family={Schwan},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3b7d5be842a7fee7d929f9228b069a22}{%
+           family={Yakovlev},
+           familyi={Y\bibinitperiod},
+           given={D\bibnamedelima R},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f9cc2fec21c21023f53f1969f6e54de0}{%
+           family={Reuter},
+           familyi={R\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cb25e676d83c373865a1fc8aa67462c9}{%
+           family={Wieck},
+           familyi={W\bibinitperiod},
+           given={A\bibnamedelima D},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8fa3bb86c6384029f82277b6dbf7f0b9}{%
+           family={Reinecke},
+           familyi={R\bibinitperiod},
+           given={T\bibnamedelima L},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=044c97393671993374bc773cccd22207}{%
+           family={Bayer},
+           familyi={B\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {United States}%
+      }
+      \strng{namehash}{498af5c4a80de2ef5ecf2550ea80340b}
+      \strng{fullhash}{8eb9dd54894481df91cc0f5ccaa11cf8}
+      \strng{bibnamehash}{498af5c4a80de2ef5ecf2550ea80340b}
+      \strng{authorbibnamehash}{498af5c4a80de2ef5ecf2550ea80340b}
+      \strng{authornamehash}{498af5c4a80de2ef5ecf2550ea80340b}
+      \strng{authorfullhash}{8eb9dd54894481df91cc0f5ccaa11cf8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Coherent interactions between spins in quantum dots are a key requirement for quantum gates. We have performed pump-probe experiments in which pulsed lasers emitting at different photon energies manipulate two distinct subsets of electron spins within an inhomogeneous InGaAs quantum dot ensemble. The spin dynamics are monitored through their precession about an external magnetic field. These measurements demonstrate spin precession phase shifts and modulations of the magnitude of one subset of oriented spins after optical orientation of the second subset. The observations are consistent with results from a model using a Heisenberg-like interaction with $\mu$eV strength.}
+      \field{journaltitle}{Phys Rev Lett}
+      \field{month}{9}
+      \field{number}{13}
+      \field{title}{Optical control of coherent interactions between electron spins in {InGaAs} quantum dots}
+      \field{volume}{107}
+      \field{year}{2011}
+      \field{pages}{137402}
+      \range{pages}{1}
+    \endentry
+    \entry{RevModPhys.85.79}{article}{}
+      \name{author}{8}{}{%
+        {{hash=920eaa791e3c7c25f417ea186f01c1fe}{%
+           family={Urbaszek},
+           familyi={U\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=634eb20b28f754813f54daa81e0e4091}{%
+           family={Marie},
+           familyi={M\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=b716e9fe1afbcaa31adec1e60d7aeb3f}{%
+           family={Amand},
+           familyi={A\bibinitperiod},
+           given={Thierry},
+           giveni={T\bibinitperiod}}}%
+        {{hash=dd0dd1d0f38ac3e0b5f98d3473b2c205}{%
+           family={Krebs},
+           familyi={K\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+        {{hash=c8ad02603c318ac6b5de5e5609cfea60}{%
+           family={Voisin},
+           familyi={V\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4712bf493a56304aa888bfab1f6d52f2}{%
+           family={Maletinsky},
+           familyi={M\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=08886035a827e15feff0fdb20ba59b8b}{%
+           family={Högele},
+           familyi={H\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4da12bd5a5a0184125a32a76b131abdb}{%
+           family={Imamoglu},
+           familyi={I\bibinitperiod},
+           given={Atac},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{4f2414905b4ec5206ff2590590bc89e3}
+      \strng{fullhash}{c3aee0293e794ac4fe6bb1a522875d5e}
+      \strng{bibnamehash}{4f2414905b4ec5206ff2590590bc89e3}
+      \strng{authorbibnamehash}{4f2414905b4ec5206ff2590590bc89e3}
+      \strng{authornamehash}{4f2414905b4ec5206ff2590590bc89e3}
+      \strng{authorfullhash}{c3aee0293e794ac4fe6bb1a522875d5e}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{1}
+      \field{title}{Nuclear spin physics in quantum dots: An optical investigation}
+      \field{volume}{85}
+      \field{year}{2013}
+      \field{pages}{79\bibrangedash 133}
+      \range{pages}{55}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.85.79
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.85.79
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.85.79
+      \endverb
+    \endentry
+    \entry{RevModPhys.76.1037}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ce80bedea21b4475d781de8b597664ef}{%
+           family={Vandersypen},
+           familyi={V\bibinitperiod},
+           given={L.\bibnamedelimi M.\bibnamedelimi K.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=8af57cd4248e7e6549aa291aa9bd3b56}{%
+           family={Chuang},
+           familyi={C\bibinitperiod},
+           given={I.\bibnamedelimi L.},
+           giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{b55088ecd639c3a93af6b3df6028f0f0}
+      \strng{fullhash}{b55088ecd639c3a93af6b3df6028f0f0}
+      \strng{bibnamehash}{b55088ecd639c3a93af6b3df6028f0f0}
+      \strng{authorbibnamehash}{b55088ecd639c3a93af6b3df6028f0f0}
+      \strng{authornamehash}{b55088ecd639c3a93af6b3df6028f0f0}
+      \strng{authorfullhash}{b55088ecd639c3a93af6b3df6028f0f0}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{1}
+      \field{title}{NMR techniques for quantum control and computation}
+      \field{volume}{76}
+      \field{year}{2005}
+      \field{pages}{1037\bibrangedash 1069}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.76.1037
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.76.1037
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.76.1037
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,10 +1,10 @@
 \chapter{Variationsprinzip}
-Es gibt viele Ansätze den Hamiltonian des Central Spin Modells zu lösen, die von der exakten Lösung über 
+Es gibt viele Ansätze den Hamiltonian des Zentralspinmodells zu lösen, die von der exakten Lösung über 
 semiklassischen Ansätzen\cite{PhysRevB.65.205309,PhysRevB.94.094308,PhysRevB.70.205327,NatalieJaeschke} bishin zum
 Chebychev Expansionstheorem reichen\cite{PhysRevB.89.045317}, welche ihre eigenen Vor- und Nachteile beherbergen. 
-Gerade bei einer großen Anzahl von Kernspins ist eine exakte quantenmechanische Lösung nicht anwendbar. Deshalb finden semiklassische Ansätze immer öfter Verwendung, 
+Gerade bei einer großen Anzahl von Kernspins ist eine exakte quantenmechanische Lösung nicht anwendbar. Deshalb finden semiklassische Ansätze Verwendung, 
 die eine Abweichung zur exakten Lösung in Kauf nehmen, um dafür mehr Spins behandeln zu können. In dieser Arbeit wird das Time-Dependent Variatonal 
-Principle, kurz TDVP, zur Lösung verwendet. Im folgenden werden konjugierte Variablen $\muk$ mit einem Oberbalken notiert.
+Principle, kurz TDVP, zur Lösung verwendet. Im folgenden werden komplex konjugierte Variablen $\muk$ mit einem Oberbalken notiert.
 
 \textbf{Historische Randnotiz}\\
 Dirac (1930) hat als Erster das Variationsprinzip zur Lösung der zeitabhängigen Schrödingergleichung unter unkommentierten Annahmen vorgestellt; 
@@ -12,12 +12,14 @@ diese Annahmen sind in P. A. M. Dirac und P. A. M."Mathematical Proceedings of t
 zu finden und werden im Rahmen dieser Bachelorarbeit nicht explizit erläutert. \\
 Viele Physiker haben versucht Diracs Annahmen zu deuten, darunter P. Kramer, der Diracs Variationsprinzip als ein Wirkungsfunktional 
 (siehe Gl. (\ref{Wirkungsfunktional})) interpretiert (TDVP) \cite{noauthor_2008-dn} und dadurch wie unten skizziert die Euler-Lagrange-Gleichungen hergeleitet hat.
-Frenkel (1934) hat Diracs Ansatz dementgegen als Minimierungsbedinung (siehe Gl. (\ref{Residuum})) und dadurch Orthogonalprojektion interpretiert (DFVP) und 
+Frenkel (1934) hat Diracs Ansatz dementgegen als Minimierungsbedinung (siehe Gl. (\ref{Residuum})) und dadurch Orthogonalprojektion interpretiert ( 
+Dirac-Frenkel Variational Principle, kurz DFVP) und 
 bezieht sich dabei auf den Appendix der russischen Übersetzung von Diracs Buch als den Ursprung seines Argumentes\cite{Mott1934-lg}.
 Diese geometrische Interpretation wurde der Kürze halber vornehmlich unten in der Herleitung verwendet. Beide Interpretationen bzw. Ansätze
-sind äquivalent zueinander unter milden Bedingungen\cite{BROECKHOVE1988547}, die für gewöhnlich erfüllt sind.\\
+sind äquivalent zueinander unter milden Bedingungen\cite{BROECKHOVE1988547}, die für gewöhnlich erfüllt sind.
 
-Die zeitabhängige Schrödingergleichung kann durch Extermisierung des Wirkungsfunktionals
+Eine explizite Herleitung ist in Referenz \cite{noauthor_2008-dn} und \cite{Haegeman_2011} zu finden.
+Die zeitabhängige Schrödingergleichung kann durch Extermalisierung des Wirkungsfunktionals
 \begin{align}\label{Wirkungsfunktional}
     S\{\overline{\Psi}(t),\Psi(t)\} &=  \int_{t_1}^{t_2}dt \thinspace L(\overline{\Psi}(t),\Psi(t),t)
 \end{align}
@@ -25,11 +27,11 @@ mit der Lagrange-Funktion und der normierten Wellenfunktion $\ket{\Psi}$:
 \begin{align}\label{Lagrange}
     L\left(\overline{\Psi}(t), \Psi(t), t\right)=\frac{i}{2}\langle\Psi(t) \mid \dot{\Psi}(t)\rangle-\frac{i}{2}\langle\dot{\Psi}(t) \mid \Psi(t)\rangle-\langle\Psi(t)|\hat{H}(t)| \Psi(t)\rangle
 \end{align}
-hergeleitet werden. Der Kürze halber wird die explitzite Zeitabhängigkeit von $H$ vernachlässigt und damit auch die von $L$. Stationarität der Wirkung 
+hergeleitet werden. Der Kürze halber wird die explitzite Zeitabhängigkeit von $\hat{H}$ vernachlässigt und damit auch die von $L$. Stationarität der Wirkung 
 $\delta S \overset{!}{=} 0$ unter der unabhängigen Variation von $\ket{\Psi}$ und $\bra{\Psi}$ im vollen Hilbertraum $H$ reproduziert die zeitabhängige 
 Schrödingergleichung (und ihr Konjugiertes).\
 
-Die \textbf{Essenz des Variationsprinzips} findet sich bei der Beschränkung auf einen Unterraum bzw. Mannigfaltigkeit $M\subset H$, wobei 
+Die Essenz des Variationsprinzips findet sich bei der Beschränkung auf einen Unterraum bzw. Mannigfaltigkeit $M\subset H$, wobei 
 immer noch die Variation von $\ket{\Psi}$ und $\bra{\Psi}$ eine stationäre Lösung liefert, wodurch die Zeitentwicklung des Zustandes $\ket{\Psi} \in M$
 definiert ist. Zusätzlich beschränken wir nun die Variation auf die Tangentialebene von $M$ am Zustand $\ket{\Psi}$. Um die Tangentialebene ordentlich 
 definieren zu können, kann die Mannigfaltigkeit $M$ parametrisiert werden als   
@@ -44,8 +46,8 @@ $\bra{\Psi(\vec{\muk})}$. Somit kann die Tangentialebene am Zustand $\ket{\Psi}$
 Anmerkung: Es wird die Konvention $\bra{\partial_{\overline{\mu_j}}\Psi} = \left(\thinspace\ket{\partial_{\mu_j}\Psi}\thinspace\right)^\dagger$ verwendet.
 
 Nun kann durch die direkte Variation der Parameter $\vec{\muk}(t)\rightarrow \vec{\muk}(t) + \delta\vec{\muk}$ und der Stationaritätsbedingung 
-$\delta S = 0$ die Euler-Lagrange-Gleichungen hergeleitet werden. Eleganter ist die geometrische Interpretion zur Herleitung der Euler-Lagrange-Gleichungen
-zu verwenden (siehe oben in der historischen Randnotiz), in der das Residuum der Schrödingergleichung bzw. der Abstand zwischen der Schrödingergleichung und der Tangentialebene $T_{\mu(t)}M$ 
+$\delta S = 0$ die Euler-Lagrange-Gleichungen hergeleitet werden. Äquivalent zur Variation können die Parameter $\mu_i$ geometrisch hergeleitet
+werden, indem das Residuum der Schrödingergleichung bzw. der Abstand zwischen der Schrödingergleichung und der Tangentialebene $T_{\mu(t)}M$ 
 \begin{align}\label{Residuum}
     || i\underbrace{\sum_k \dot{\mu}_k\ket{\partial_{\mu_k}\Psi}}_{\frac{d}{dt}\ket{\Psi}} - \hat{H}\ket{\Psi} || 
 \end{align}
@@ -54,7 +56,11 @@ Projektionsoperator
 \begin{align}
     \hat{P}_{T_{\mu}M} &= \sum_{i,j}\ket{\partial_{\mu_i}\Psi}(G_{i,j})^{-1}\bra{\partial_{\muk_j}\Psi}
 \end{align}
-Dabei taucht hier die inverse Grammatrix $(G_{i,j})^{-1}$ auf, damit u.a. die Projektionsoperatoreigenschaft $\hat{P}_{T_{\mu}M}^2=\hat{P}_{T_{\mu}M}$ 
+Dabei taucht hier die inverse Grammatrix 
+\begin{align}
+    G_{ij} &= \bra{\partial_{\overline{\mu_i}}\Psi}\ket{\partial_{\mu_j}\Psi}. 
+\end{align}
+auf, damit u.a. die Projektionsoperatoreigenschaft $\hat{P}_{T_{\mu}M}^2=\hat{P}_{T_{\mu}M}$ 
 erfüllt ist. Über einen Koeffizientenvergleich zwischen
 \begin{align}
     \hat{P}_{T_{\mu}M}\hat{H}\ket{\Psi} = \sum_{i,j}\left((G_{i,j})^{-1}\ 
@@ -68,11 +74,8 @@ zu den Zustandsvektoren $\ket{\partial_{\mu_i}\Psi}$ ergeben sich schlussendlich
 \begin{align}
     i\dot{\mu_i} &= \sum_{j}\left(G_{ij}\right)^{-1}\thinspace \langle\partial_{\muk_j}\Psi|\hat{H}\ket{\Psi}
 \end{align}
-mit
-\begin{align}
-    G_{ij} &= \bra{\partial_{\overline{\mu_i}}\Psi}\ket{\partial_{\mu_j}\Psi}. 
-\end{align}
-Da in dieser Arbeit ein nicht-normierter Wellenfunktionsansatz verwendet wird, ist der verallgemeinerte Fall von besonderem Interesse. Der Hamiltonian ist unitär und somit normerhaltend, was aber nicht mehr für die Projektion gilt. Wir
+Da in dieser Arbeit ein nicht-normierter Wellenfunktionsansatz verwendet wird, ist der verallgemeinerte Fall von besonderem Interesse. Die Zeitentwicklung
+des Hamiltonian ist unitär und somit normerhaltend, was aber nicht mehr für die Projektion gilt. Wir
 können die modifizierte Lagrange-Funktion $\widetilde{L}(\overline{\Psi}(t), \Psi(t)) = \frac{L(\overline{\Psi}(t), \Psi(t))}{\langle \Psi(t)|\Psi\rangle}$
 definieren und unter Berücksichtigung der Parametrisierung erhalten wir
 \begin{align}
@@ -111,18 +114,16 @@ Lagrangefunktion $\widetilde{L}$, die \textbf{verallgemeinerten Euler-Lagrange-G
 \begin{align}\label{verallgemeinerter_Euler_Lagrange}
     i\dot{\mu}_i &= \sum_{j}\left(\tilde{G}_{ij}\right)^{-1}\thinspace \partial_{\overline{\mu}_j}\mathcal{{H}}
 \end{align}
-
-Eine explizite Herleitung ist in [P. Kramer and M. Saraceno, Geometry of the Time-Dependent Variational Principle in Quantum Mechanics
-(Springer-Verlag, Berlin) (1981)]\cite{noauthor_2008-dn} und subsequent in Jutho Haegeman et 
-al. „Time-Dependent Variational Principle for Quantum Lattices“\cite{Haegeman_2011} zu finden.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Ansatz_Wellen-Funktiom
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Wahl der Wellenfunktion für einen semi-klassischen Ansatz}
-\begin{wrapfigure}{r}{0.4\textwidth}
+\newpage
+\section{Wahl der Wellenfunktion für einen semiklassischen Ansatz}
+\begin{wrapfigure}{r}{0.3\textwidth}
     \centering
-    \includegraphics[width = 0.35\textwidth]{Abbildungen/bloch-sphere.png}
-    \caption{Schematischer Aufbau einer Bloch-Sphere}
+    \includegraphics[width = 0.3\textwidth]{Abbildungen/Bloch_sphere_wikimedia.png}
+    \caption{Schematischer Aufbau einer Bloch-Sphäre. Dabei entspricht $|0\rangle$  gerade $|\uparrow\rangle$ und $|1\rangle$ gerade 
+    $|\downarrow\rangle$ \cite{pict}.}
     \label{fig:qubit}
 \end{wrapfigure}
 Zur Vereinfachung werden alle Kernspins (wie der Elektronenspin) als 1/2-Spins angenommen. 
@@ -139,8 +140,10 @@ mit dem Normierungsfaktor
 beschreibt gerade einen Produktzustand aus $n$ Bloch-Sphären und wird mit den komplexen Parametern $\mu_i(t)$ parametrisiert. Dabei beschreibt der
 Betrag $|\mu|$ die Anteile von $|\uparrow\rangle$ und $|\downarrow\rangle$ in der Wellenfunktion jeweils. Der Zustand $|\uparrow\rangle$ kann durch $\mu=0$ 
 und der Zustand $|\downarrow\rangle$ als Grenzwert für $|\mu|\rightarrow \infty$ erreicht werden; dadurch steht der Betrag $|\mu|$ in Beziehung mit
-mit dem Winkel $\Theta$ in \autoref{fig:qubit}. Der Imaginärteil $Im[\mu]$ beschreibt dabei die Phase der Zustände und steht deshalb ebenfalls in 
-Beziehung mit dem Winkel $\Phi$ in \autoref{fig:qubit}.\\
+mit dem Winkel $\Theta$ in \autoref{fig:qubit} über $\theta = 2\tan^{-1}(|\mu|)$. Das komplexe Argument von $\mu$ beschreibt dabei die Phase der 
+Zustände und steht deshalb ebenfalls in Beziehung mit dem Winkel $\phi$ in \autoref{fig:qubit}.\\
+Dieser Ansatz ist die Basis für weitere Korrekturen, die im späteren Verlauf verwendet werden können, um quantenmechanische Effekte berücksichtigen zu 
+können.\\
 Es wird der Ansatz aus Gl. (\ref{klassischer_Ansatz}) ohne den Normierungsfaktor verwendet, da das TDVP nur eine analytische Wellenfunktion variieren kann,
 der Normierungsfaktor ist aber durch das Auftauchen von $\mu_i$ und dem konjugierten $\muk_i$ nicht analytisch. Es kann aber immer noch auf die 
 verallgemeinerte Euler-Lagrange-Gleichungen Gl. (\ref{verallgemeinerter_Euler_Lagrange}) zurückgegriffen werden.\\
@@ -328,8 +331,8 @@ Im Gegensatz zum klassischen Ansatz lässt sich erkennen, dass alle Parameter $\
 Hilbertraumabgedeckt und die exakte Lösung zu erwarten.\\
 Aufgrund der Tatsache, dass bei einem $\vec{b}$-Feld in beliebiger Richtung, sich die Rechnung und Ergebnisse außerordentlich verkomplizieren, ohne 
 wirklich neue Erkenntnis zu bringen, wird das Magnetfeld in z-Richtung ausgerichtet. Somit vereinfacht sich der 
-Hamiltonian (\ref{zweSpinHamilton}) zu:
-\begin{align}
+Hamiltonian (\ref{zweiSpinHamilton}) zu:
+\begin{align}\label{Hamiltonian_Bz}
     \hat{H} &= \vec{b}\hat{\vec{S}}_z +  z\vec{b}\hat{\vec{I}}_z + \alpha \hat{\vec{S}}\hat{\vec{I}}
 \end{align}
 Mit diesem Ansatz erhalten wir nach längerer Rechnung den modifizierten Hamiltonian:
@@ -342,7 +345,7 @@ mit
     %
     \bra{\Psi}\hat{H}_2\ket{\Psi} &=  \frac{z b}{2}\left[ 1- \mu_2\muk_2 + \mu_1\muk_1 - (\mu_1 \mu_2 + \mu_{12})(\overline{\mu_1\mu_2} + \muk_{12})\right] \\
     %
-    \bra{\Psi}\hat{H}_3\ket{\Psi} &= \frac{\alpha}{4}[2(\muk_1\mu_2 + \mu_1\muk_2) + 1 - \mu_1\muk_1 - \mu_2\muk_2 + (\mu_1 \mu_2 + \mu_{12})(\overline{\mu_1\mu_2} + \muk_{12})]
+    \bra{\Psi}\hat{H}_3\ket{\Psi} &= \frac{\alpha}{4}[2(\muk_1\mu_2 + \mu_1\muk_2) + 1 - \mu_1\muk_1 - \mu_2\muk_2 + (\mu_1 \mu_2 + \mu_{12})(\overline{\mu_1\mu_2} + \muk_{12})].
 \end{align}
 \noindent Damit folgen für die partiellen Ableitungen nach den konjugierten Parameter
 \begin{align}
@@ -361,20 +364,21 @@ mit
     &-zb\frac{(\mu_1\mu_2+\mu_{12})(1+\mu_1\muk_1)}{\N^2} \nonumber\\
     &+\frac{\alpha}{2}\frac{(\muk_1-\muk_2)(\mu_1-\mu_2)(\mu_1\mu_2+\mu_{12})}{\N^2}\label{dH_Q12}
 \end{align}
-\noindent Und für die Gram-Matrix erhalten wir:
+\noindent und für die Gram-Matrix erhalten wir:
 \begin{align}\label{Gram_Korrektur}
     G &=
     \begin{pmatrix}
         (1+\mu_1\muk_1)^2 + \mu_{12}\muk_{12} & -\mu_1^2\muk_{12} - \muk_2^2\mu_{12} &  \mu_2(1+\mu_2\muk_2)-\muk_1\mu_{12}\\
         -\mu_2^2\muk_{12} - \muk_1^2\mu_{12} &(1+\mu_2\muk_2)^2 + \mu_{12}\muk_{12} & \mu_1(1+\mu_1\muk_1)-\muk_2\mu_{12}\\
         \muk_2(1+\mu_2\muk_2)-\mu_1\muk_{12} & \muk_1(1+\mu_1\muk_1)-\mu_2\muk_{12} & 1 + \mu_1\muk_1 + \mu_2\muk_2
-    \end{pmatrix}\frac{1}{\N^2} 
+    \end{pmatrix}\frac{1}{\N^2} .
 \end{align}
 Somit lassen sich die Bewegungsgleichungen der Parameter explizit aufschreiben:
 \begin{align}
     i\dot{\mu}_1 &= G_{1,1}^{-1}\thinspace \partial_{\muk_1}\mathcal{H} + G_{1,2}^{-1}\thinspace\partial_{\muk_2}\mathcal{H} + G_{1,3}^{-1}\thinspace\partial_{\muk_3}\mathcal{H}\label{QK_DGL1} \\
     i\dot{\mu}_2 &= G_{2,1}^{-1}\thinspace\partial_{\muk_1}\mathcal{H} + G_{3,2}^{-1\thinspace}\partial_{\muk_2}\mathcal{H} + G_{2,3}^{-1}\thinspace\partial_{\muk_3}\mathcal{H} \\
-    i\dot{\mu}_{12} &= G_{3,1}^{-1}\thinspace\partial_{\muk_1}\mathcal{H} + G_{3,2}^{-1}\thinspace\partial_{\muk_2}\mathcal{H} + G_{3,3}^{-1}\thinspace\partial_{\muk_3}\mathcal{H} \label{QK_DGL3}
+    i\dot{\mu}_{12} &= G_{3,1}^{-1}\thinspace\partial_{\muk_1}\mathcal{H} + G_{3,2}^{-1}\thinspace\partial_{\muk_2}\mathcal{H} + G_{3,3}^{-1}\thinspace\partial_{\muk_3}\mathcal{H} \label{QK_DGL3}.
 \end{align}
-
-
+Die Ergebnisse sind deutlich komplexer als für den klassischen Ansatz. Zur Herleitung der Spindynamik würden sich deshalb numerische Methoden zur Lösung der 
+Differetialgleichung ergeben, wobei die modifizierte Gram-Matrix Gl. (\ref{Gram_Korrektur}) der Kürze halber auch numerisch invertiert werden kann, da eine 
+direkte Inversion einen noch kompliziertere Matrix ergeben würde mit wenig neuer Erkenntnis.
