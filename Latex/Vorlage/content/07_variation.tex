@@ -140,7 +140,7 @@ mit dem Normierungsfaktor
 beschreibt gerade einen Produktzustand aus $n$ Bloch-Sphären und wird mit den komplexen Parametern $\mu_i(t)$ parametrisiert. Dabei beschreibt der
 Betrag $|\mu|$ die Anteile von $|\uparrow\rangle$ und $|\downarrow\rangle$ in der Wellenfunktion jeweils. Der Zustand $|\uparrow\rangle$ kann durch $\mu=0$ 
 und der Zustand $|\downarrow\rangle$ als Grenzwert für $|\mu|\rightarrow \infty$ erreicht werden; dadurch steht der Betrag $|\mu|$ in Beziehung mit
-mit dem Winkel $\Theta$ in \autoref{fig:qubit} über $\theta = 2\tan^{-1}(|\mu|)$. Das komplexe Argument von $\mu$ beschreibt dabei die Phase der 
+mit dem Winkel $\theta$ in \autoref{fig:qubit} über $\theta = 2\tan^{-1}(|\mu|)$. Das komplexe Argument von $\mu$ beschreibt dabei die Phase der 
 Zustände und steht deshalb ebenfalls in Beziehung mit dem Winkel $\phi$ in \autoref{fig:qubit}.\\
 Dieser Ansatz ist die Basis für weitere Korrekturen, die im späteren Verlauf verwendet werden können, um quantenmechanische Effekte berücksichtigen zu 
 können.\\
@@ -186,9 +186,8 @@ Damit erhalten wir
 \end{align}
 \noindent Einsetzen in die verallgemeinerte Euler-Lagrange-Gleichung \autoref{verallgemeinerter_Euler_Lagrange} liefert:
 \begin{align}
-    i\dot{\mu_i} &= \sum_{j}\left(G_{ij}\right)^{-1}\thinspace \partial_{\overline{\mu_j}}\mathcal{H} = \left(G_{11}\right)^{-1}\partial_{\muk} \mathcal{H} \\
-    &= \frac{b_x}{2}(1-\mu^2) + \frac{i b_y }{2}(1+\mu^2) -\mu b_z   \label{Larmor} \\ 
-    \leftrightarrow \dot{\mu} &= \frac{1}{2}(b_y + ib_x)\mu^2 + \frac{1}{2}(b_y - ib_x) +i\mu b_z .
+    i\dot{\mu} &=  \left(G_{11}\right)^{-1}\partial_{\muk} \mathcal{H} = \frac{b_x}{2}(1-\mu^2) + \frac{i b_y }{2}(1+\mu^2) -\mu b_z\\
+    \leftrightarrow \dot{\mu} &= \frac{ b_y }{2}(1+\mu^2) - \frac{ib_x}{2}(1-\mu^2)   + i\mu b_z .
 \end{align}
 Die normierten \textbf{Spin-Erwartungswerte} $\frac{\bra{\Psi}\hat{\vec{S}}\ket{\Psi}}{\N}$ lauten:
 \begin{align}
@@ -201,25 +200,42 @@ Unter Verwendung der Identität
     \frac{d}{dt}\left(\frac{\bra{\Psi}\hat{S_\alpha}\ket{\Psi}}{\N}\right) &= \partial_{\mu}\left[\frac{\bra{\Psi}\hat{S_\alpha}\ket{\Psi}}{\N}\right]\dot{\mu} 
     + \partial_{\muk}\left[\frac{\bra{\Psi}\hat{S_\alpha}\ket{\Psi}}{\N}\right]\dot{\muk}\label{dS_dt}
 \end{align}
-ergeben sich die Bewegungsgleichungen der Form
+lassen sich die Bewegungsgleichungen der Spinerwartungswerte berechnen. Für $S_x$ ergibt sich:
+\begin{flalign}
+    \frac{d}{dt}\left(\frac{\bra{\Psi}\hat{S_x}\ket{\Psi}}{\N}\right) =& \frac{1}{2}\frac{1-\muk^2}{(1+\mu\muk)^2}\cdot\left[\frac{ b_y }{2}(1+\mu^2) - \frac{ib_x}{2}(1-\mu^2)   + i\mu b_z\right] \nonumber \\
+    &+ \frac{1}{2}\frac{1-\mu^2}{(1+\mu\muk)^2}\cdot\left[\frac{ b_y }{2}(1+\muk^2) + \frac{ib_x}{2}(1-\muk^2)   - i\muk b_z\right]  \nonumber \\
+    =& \frac{1}{2(1+\mu\muk)^2}\bigg(\frac{b_y}{2}\underbrace{[(1-\muk^2)(1+\mu^2) + (1-\mu^2)(1+\muk^2)]}_{=2(1-\mu\muk)(1+\mu\muk)} \nonumber \\
+    &- \frac{ib_x}{2}\underbrace{\left[(1-\muk^2)(1-\mu^2) - (1-\mu^2)(1-\muk^2)\right]}_{=0}     \nonumber \\
+    &+ ib_z\underbrace{\left[\mu(1-\muk^2) -\muk(1-\mu^2) \right]}_{=-(\muk - \mu)(1+\mu\muk)}      \bigg)                         \nonumber \\    
+    =& b_y \frac{1}{2}\frac{1-\mu\muk}{(1+\mu\muk)} - b_z \frac{i}{2}\frac{\muk -\mu}{(1+\mu\muk)}  \nonumber  \\
+    =& b_y\left(\frac{\bra{\Psi}\hat{S_z}\ket{\Psi}}{\N}\right) - b_z\left(\frac{\bra{\Psi}\hat{S_x}\ket{\Psi}}{\N}\right).
+\end{flalign}
+Für $S_y$:
+\begin{flalign}
+    \frac{d}{dt}\left(\frac{\bra{\Psi}\hat{S_y}\ket{\Psi}}{\N}\right) =& -\frac{i}{2}\frac{1+\muk^2}{(1+\mu\muk)^2}\cdot\left[\frac{ b_y }{2}(1+\mu^2) - \frac{ib_x}{2}(1-\mu^2)   + i\mu b_z\right] \nonumber \\
+    &+ \frac{i}{2}\frac{1+\mu^2}{(1+\mu\muk)^2}\cdot\left[\frac{ b_y }{2}(1+\muk^2) + \frac{ib_x}{2}(1-\muk^2)   - i\muk b_z\right]  \nonumber \\
+    =& \frac{i}{2(1+\mu\muk)^2}\bigg(\frac{b_y}{2}\underbrace{[(1+\muk^2)(1+\mu^2) - (1+-\mu^2)(1+\muk^2)]}_{=0} \nonumber \\
+    &+ \frac{ib_x}{2}\underbrace{\left[(1+\muk^2)(1-\mu^2) + (1-\mu^2)(1+\muk^2)\right]}_{=2(1-\mu\muk)(1+\mu\muk)}     \nonumber \\
+    &+ ib_z\underbrace{\left[\mu(1-\muk^2) -\muk(1-\mu^2) \right]}_{=-(\muk + \mu)(1+\mu\muk)}      \bigg)                         \nonumber \\    
+    =& -b_x \frac{1}{2}\frac{1-\mu\muk}{(1+\mu\muk)} + b_z \frac{1}{2}\frac{\muk +\mu}{(1+\mu\muk)}  \nonumber  \\
+    =& b_z\left(\frac{\bra{\Psi}\hat{S_x}\ket{\Psi}}{\N}\right) - b_x\left(\frac{\bra{\Psi}\hat{S_z}\ket{\Psi}}{\N}\right).
+\end{flalign}
+Für $S_z$:
+\begin{flalign}
+    \frac{d}{dt}\left(\frac{\bra{\Psi}\hat{S_z}\ket{\Psi}}{\N}\right) =& -\frac{\muk}{(1+\mu\muk)^2}\cdot\left[\frac{ b_y }{2}(1+\mu^2) - \frac{ib_x}{2}(1-\mu^2)   + i\mu b_z\right] \nonumber \\
+    &- \frac{\mu}{(1+\mu\muk)^2}\cdot\left[\frac{ b_y }{2}(1+\muk^2) + \frac{ib_x}{2}(1-\muk^2)   - i\muk b_z\right]  \nonumber \\
+    =& \frac{1}{(1+\mu\muk)^2}\bigg(\frac{b_y}{2}\underbrace{[\muk(1+\mu^2) + \mu(1+\muk^2)]}_{=(\mu + \muk)(1 + \mu\muk)} \nonumber \\
+    &+ \frac{ib_x}{2}\underbrace{\left[\mu(1-\muk^2) - \muk(1-\mu^2)\right]}_{=-(\muk-\mu)(1+\mu\muk)}     \nonumber \\
+    &+ ib_z\underbrace{\left[\muk\mu - \mu\muk \right]}_{=0}      \bigg)                         \nonumber \\    
+    =& b_x \frac{i}{2}\frac{\muk-\mu}{(1+\mu\muk)} - b_y \frac{1}{2}\frac{\muk +\mu}{(1+\mu\muk)}  \nonumber  \\
+    =& b_x\left(\frac{\bra{\Psi}\hat{S_y}\ket{\Psi}}{\N}\right) - b_y\left(\frac{\bra{\Psi}\hat{S_x}\ket{\Psi}}{\N}\right).
+\end{flalign}
+Zusammenfassend ergibt sich:
 \begin{align}
     \frac{d}{dt}\left(\frac{\bra{\Psi}\hat{\vec{S}}\ket{\Psi}}{\N}\right) &= \vec{b} \cross \left(\frac{\bra{\Psi}\hat{\vec{S}}\ket{\Psi}}{\N}\right).
 \end{align}
 Dies entspricht wie zu erwarten der \textit{Larmor-Präzession}.
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-
-
-
-
-
-
-
-
-
 \section{Zwei Spins: Klassischer Ansatz}
 Der vollständige zwei 1/2-Spin-Hilbertraum wird aufgespannt durch
 \begin{align}
@@ -257,9 +273,9 @@ mit
 \end{align}  
 Und wir erhalten die partiellen Ableitungen:
 \begin{align}
-    \partial_{\muk_1}\mathcal{H} &= \underbrace{\frac{1}{2(1+\mu_1\muk_1)^2}[b_x(1-\mu_1^2) + ib_y(1+\mu_1^2) - b_z\mu_1]}_{= \partial_{\muk_1} \frac{\bra{\Psi}\hat{H}_1 + \hat{H}_2\ket{\Psi}}{\N}} \nonumber\\
+    \partial_{\muk_1}\mathcal{H} =& \underbrace{\frac{1}{2(1+\mu_1\muk_1)^2}[b_x(1-\mu_1^2) + ib_y(1+\mu_1^2) - b_z\mu_1]}_{= \partial_{\muk_1} \frac{\bra{\Psi}\hat{H}_1 + \hat{H}_2\ket{\Psi}}{\N}} \nonumber\\
     &+ \underbrace{\frac{\alpha}{2}\frac{(\mu_2 -\mu_1)(1+\mu_1\muk_2)}{(1+\mu_1\muk_1)^2(1+\mu_2\muk_2)}}_{= \partial_{\muk_1} \frac{\bra{\Psi}\hat{H}_3\ket{\Psi}}{\N}}\\
-    \partial_{\muk_2}\mathcal{H} &= \underbrace{\frac{z}{2(1+\mu_2\muk_2)^2}[b_x(1-\mu_2^2) + iB_y(1+\mu_2^2) - B_z\mu_2]}_{= \partial_{\muk_2} \frac{\bra{\Psi}\hat{H}_1 + \hat{H}_2\ket{\Psi}}{\N}} \nonumber \\
+    \partial_{\muk_2}\mathcal{H} =& \underbrace{\frac{z}{2(1+\mu_2\muk_2)^2}[b_x(1-\mu_2^2) + iB_y(1+\mu_2^2) - B_z\mu_2]}_{= \partial_{\muk_2} \frac{\bra{\Psi}\hat{H}_1 + \hat{H}_2\ket{\Psi}}{\N}} \nonumber \\
     &+ \underbrace{\frac{\alpha}{2}\frac{(\mu_1 -\mu_2)(1+\mu_2\muk_1)}{(1+\mu_1\muk_1)(1+\mu_2\muk_2)^2}}_{= \partial_{\muk_2} \frac{\bra{\Psi}\hat{H}_3\ket{\Psi}}{\N}}\space .
 \end{align}
 Zudem ergibt sich die modifizierte Gram-Matrix
@@ -349,17 +365,17 @@ mit
 \end{align}
 \noindent Damit folgen für die partiellen Ableitungen nach den konjugierten Parameter
 \begin{align}
-    \partial_{\muk_1} \mathcal{H} &= 
+    \partial_{\muk_1} \mathcal{H} =& 
     -b \frac{\mu_1(1+\mu_2\muk_2)^2 + \muk_2\mu_{12}}{\N^2}\nonumber\\
     &+z b \frac{\muk_{12}(\mu_1\mu_2 + \mu_{12})}{\N^2}\nonumber\\
     &+\frac{\alpha}{2}\frac{(\mu_2-\mu_1)(\mu_1\muk_2+1)(1+\mu_2\muk_2)+\muk_{12}(\mu_1\mu_2 + \mu_{12}) + \mu_{12}\muk_2}{\N^2}\label{dH_Q1} \\
     %
-    \partial_{\muk_2} \mathcal{H} &= 
+    \partial_{\muk_2} \mathcal{H} =& 
     +b \frac{\muk_{12}(\mu_1\mu_2 + \mu_{12})}{\N^2} \nonumber\\
     &-z b \frac{\mu_2(1+\mu_1\muk_1)^2 + \muk_1\mu_{12}}{\N^2} \nonumber\\
     &+\frac{\alpha}{2}\frac{(\mu_1-\mu_2)(\mu_2\muk_1+1)(1+\mu_1\muk_1)+\muk_{12}(\mu_1\mu_2 + \mu_{12}) + \mu_{12}\muk_1}{\N^2} \\
     %
-    \partial_{\muk_{12}} \mathcal{H} &= 
+    \partial_{\muk_{12}} \mathcal{H} =& 
     -b\frac{(\mu_1\mu_2+\mu_{12})(1+\mu_2\muk_2)}{\N^2} \nonumber\\
     &-zb\frac{(\mu_1\mu_2+\mu_{12})(1+\mu_1\muk_1)}{\N^2} \nonumber\\
     &+\frac{\alpha}{2}\frac{(\muk_1-\muk_2)(\mu_1-\mu_2)(\mu_1\mu_2+\mu_{12})}{\N^2}\label{dH_Q12}
@@ -380,5 +396,5 @@ Somit lassen sich die Bewegungsgleichungen der Parameter explizit aufschreiben:
     i\dot{\mu}_{12} &= G_{3,1}^{-1}\thinspace\partial_{\muk_1}\mathcal{H} + G_{3,2}^{-1}\thinspace\partial_{\muk_2}\mathcal{H} + G_{3,3}^{-1}\thinspace\partial_{\muk_3}\mathcal{H} \label{QK_DGL3}.
 \end{align}
 Die Ergebnisse sind deutlich komplexer als für den klassischen Ansatz. Zur Herleitung der Spindynamik würden sich deshalb numerische Methoden zur Lösung der 
-Differetialgleichung ergeben, wobei die modifizierte Gram-Matrix Gl. (\ref{Gram_Korrektur}) der Kürze halber auch numerisch invertiert werden kann, da eine 
+Differentialgleichung ergeben, wobei die modifizierte Gram-Matrix Gl. (\ref{Gram_Korrektur}) der Kürze halber auch numerisch invertiert werden kann, da eine 
 direkte Inversion einen noch kompliziertere Matrix ergeben würde mit wenig neuer Erkenntnis.
