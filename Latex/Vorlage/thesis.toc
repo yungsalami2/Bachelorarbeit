@@ -7,13 +7,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Zentralspinmodell}{5}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}charakteristische Zeitskala}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Charakteristische Zeitskala}{5}{section.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Variationsprinzip}{7}{chapter.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Wahl der Wellenfunktion für einen semiklassischen Ansatz}{11}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}ein 1/2-Spin im konstanten Magnetfeld}{11}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Spin-1/2 im konstanten Magnetfeld}{11}{section.4.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Zwei Spins: Klassischer Ansatz}{15}{section.4.3}%
 \defcounter {refsection}{0}\relax 
@@ -26,5 +26,7 @@
 \contentsline {section}{\numberline {5.2}Exemplarischer Vergleich}{21}{section.5.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Zusammenfassung}{25}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Literatur}{26}{chapter*.12}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

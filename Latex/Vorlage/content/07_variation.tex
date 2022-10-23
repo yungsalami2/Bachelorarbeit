@@ -8,12 +8,11 @@ Principle, kurz TDVP, zur Lösung verwendet. Im folgenden werden komplex konjugi
 
 \textbf{Historische Randnotiz}\\
 Dirac (1930) hat als Erster das Variationsprinzip zur Lösung der zeitabhängigen Schrödingergleichung unter unkommentierten Annahmen vorgestellt; 
-diese Annahmen sind in P. A. M. Dirac und P. A. M."Mathematical Proceedings of the Cambridge Philosophical Society 26, 376 (1930)"\cite{Dirac1930-fc,Mott1934-lg} 
+diese Annahmen sind in P. A. M. Dirac "Mathematical Proceedings of the Cambridge Philosophical Society 26, 376 (1930)"\cite{Dirac1930-fc} 
 zu finden und werden im Rahmen dieser Bachelorarbeit nicht explizit erläutert. \\
 Viele Physiker haben versucht Diracs Annahmen zu deuten, darunter P. Kramer, der Diracs Variationsprinzip als ein Wirkungsfunktional 
 (siehe Gl. (\ref{Wirkungsfunktional})) interpretiert (TDVP) \cite{noauthor_2008-dn} und dadurch wie unten skizziert die Euler-Lagrange-Gleichungen hergeleitet hat.
-Frenkel (1934) hat Diracs Ansatz dementgegen als Minimierungsbedinung (siehe Gl. (\ref{Residuum})) und dadurch Orthogonalprojektion interpretiert ( 
-Dirac-Frenkel Variational Principle, kurz DFVP) und 
+Frenkel (1934) hat Diracs Ansatz dementgegen als Minimierungsbedinung (siehe Gl. (\ref{Residuum})) und dadurch Orthogonalprojektion interpretiert (Dirac-Frenkel Variational Principle, kurz DFVP) und 
 bezieht sich dabei auf den Appendix der russischen Übersetzung von Diracs Buch als den Ursprung seines Argumentes\cite{Mott1934-lg}.
 Diese geometrische Interpretation wurde der Kürze halber vornehmlich unten in der Herleitung verwendet. Beide Interpretationen bzw. Ansätze
 sind äquivalent zueinander unter milden Bedingungen\cite{BROECKHOVE1988547}, die für gewöhnlich erfüllt sind.
@@ -54,9 +53,9 @@ werden, indem das Residuum der Schrödingergleichung bzw. der Abstand zwischen d
 minimiert wird. Dies gelingt durch eine Orthogonalprojektion von $\hat{H}\ket{\Psi}$ auf die Tangentialebene $T_{\mu(t)}M$. Dafür definieren wir den 
 Projektionsoperator
 \begin{align}
-    \hat{P}_{T_{\mu}M} &= \sum_{i,j}\ket{\partial_{\mu_i}\Psi}(G_{i,j})^{-1}\bra{\partial_{\muk_j}\Psi}
+    \hat{P}_{T_{\mu}M} &= \sum_{i,j}\ket{\partial_{\mu_i}\Psi}(G_{i,j})^{-1}\bra{\partial_{\muk_j}\Psi}.
 \end{align}
-Dabei taucht hier die inverse Grammatrix 
+Dabei taucht hier die inverse der Grammatrix 
 \begin{align}
     G_{ij} &= \bra{\partial_{\overline{\mu_i}}\Psi}\ket{\partial_{\mu_j}\Psi}. 
 \end{align}
@@ -80,7 +79,7 @@ können die modifizierte Lagrange-Funktion $\widetilde{L}(\overline{\Psi}(t), \P
 definieren und unter Berücksichtigung der Parametrisierung erhalten wir
 \begin{align}
         \widetilde{L}(\vec{\muk}(t),\vec{\mu}(t)) &= \frac{i}{2}\sum_j\left(\dot{\mu_j}(t)\partial_{\mu_j} + \dot{\muk_j}(t)\partial_{\muk_j}\right)
-        ln(\langle\Psi(\vec{\muk}(t))|\Psi(\vec{\mu}(t))\rangle) - \mathcal{H}(\vec{\muk}(t),\vec{\mu}(t))
+        ln\left(\langle\Psi(\vec{\muk}(t))|\Psi(\vec{\mu}(t))\rangle\right) - \mathcal{H}(\vec{\muk}(t),\vec{\mu}(t))
 \end{align}
 mit der effektiven Hamilton-Funktion
 \begin{align}
@@ -149,21 +148,10 @@ der Normierungsfaktor ist aber durch das Auftauchen von $\mu_i$ und dem konjugie
 verallgemeinerte Euler-Lagrange-Gleichungen Gl. (\ref{verallgemeinerter_Euler_Lagrange}) zurückgegriffen werden.\\
 %%%%%%%%%
 %%%%%%%%%
-\section{ein 1/2-Spin im konstanten Magnetfeld}
+\section{Spin-1/2 im konstanten Magnetfeld}
 Zum besseren Verständnis des TDVPs ist die beispielhafte Betrachtung des vereinfachten Falles sehr aufschlussreich. 
 Zudem lassen sich Identitäten herleiten, die in die Erweiterung zum \textbf{Zentralspinmodell} Wiederverwendung finden werden. Hierfür wird nur der erste 
-Summand des Zentralspinmodells betrachtet:
-\begin{align*}
-    \ket{\Psi} &= e^{\mu\thinspace S^-}\ket{\uparrow} \\
-            &= (1 + \frac{\mu\thinspace S^{-}}{1!} + \frac{\left(\mu\thinspace S^{-}\right)^2}{2!} + ...)\ket{\uparrow}    \\
-            &= \ket{\uparrow} + \mu\ket{\downarrow}
-\end{align*}
-\noindent Im folgenden haben wir uns die Eigenschaft des 1/2-Spins $\left(S^{-}\right)^{n}\ket{\uparrow}=0$  (n = 2,3,...) verwendet.
-Dieser Ansatz deckt unter Berücksichtigung der Normierung und der Phasenfreiheit den gesamten Hilbertraum des 1/2-Spins ab
-\begin{align}
-    \ket{\mu} &= e^{i\phi}\frac{1}{\sqrt{1 + \mu\muk}}\ket{\uparrow} + e^{i\phi}\frac{\mu}{\sqrt{1 + \mu\muk}}\ket{\downarrow}.
-\end{align}
-Der Hamilton-Operator für einen Spin in einem Magnetfeld $\vec{B}$ lautet
+Summand des Zentralspinmodells betrachtet bzw. der Hamilton-Operator für einen Spin in einem Magnetfeld:
 \begin{align}
     \hat{H}_1 &= \vec{b}\hat{\vec{S}} = \left(b_x\hat{S}_x+b_y\hat{S}_y+b_z\hat{S}_z \right) \\
     &= \frac{b_x}{2}\Bigl(\ket{\downarrow}\!\bra{\uparrow}+\ket{\uparrow}\!\bra{\downarrow}\Bigr) \\
@@ -172,21 +160,31 @@ Der Hamilton-Operator für einen Spin in einem Magnetfeld $\vec{B}$ lautet
 \end{align}
 \noindent wobei der Lande-Faktor des freien Elektrones $g_e\approx 2$ ist. 
 Der Spin-Vektororperator hat die Form $\hat{\vec{S}}= \frac{1}{2}\left(\hat{\sigma}_x,\hat{\sigma}_y,\hat{\sigma}_z\right)^T$ mit den Pauli-Matrizen 
-$\hat{\sigma}_i$.\\ 
-und somit ergibt sich der effektive Hamilton-Funktion und seine partielle Ableitung nach $\muk$:
+$\hat{\sigma}_i$. Aus dem klassichen Ansatz Gl. (\ref{klassischer_Ansatz}) ergibt sich
+\begin{align*}
+    \ket{\Psi} &= e^{\mu\thinspace S^-}\ket{\uparrow} \\
+            &= (1 + \frac{\mu\thinspace S^{-}}{1!} + \frac{\left(\mu\thinspace S^{-}\right)^2}{2!} + ...)\ket{\uparrow}    \\
+            &= \ket{\uparrow} + \mu\ket{\downarrow}.
+\end{align*}
+\noindent Dabei haben wurde die Eigenschaft des 1/2-Spins $\left(S^{-}\right)^{n}\ket{\uparrow}=0$  (n = 2,3,...) verwendet.
+Dieser Ansatz deckt unter Berücksichtigung der Normierung und der Phasenfreiheit den gesamten Hilbertraum des 1/2-Spins ab
+\begin{align}
+    \ket{\mu} &= e^{i\phi}\frac{1}{\sqrt{1 + \mu\muk}}\ket{\uparrow} + e^{i\phi}\frac{\mu}{\sqrt{1 + \mu\muk}}\ket{\downarrow}.
+\end{align} 
+Somit ergibt sich der effektive Hamilton-Funktion und seine partielle Ableitung nach $\muk$:
 \begin{align}
     \mathcal{H} &= \frac{1}{2}\frac{b_x(\mu +\muk) + ib_y(\muk - \mu) + b_z(1-\mu\muk) }{1+\mu\muk}    \\
-    \partial_{\muk} \mathcal{H} &= \frac{1}{2} \frac{b_x(1-\mu^2) + ib_y(1+\mu^2) - 2\mu b_z}{(1+\mu\muk)^2} 
+    \partial_{\muk} \mathcal{H} &= \frac{1}{2} \frac{b_x(1-\mu^2) + ib_y(1+\mu^2) - 2\mu b_z}{(1+\mu\muk)^2} .
 \end{align}
-\noindent Im nächsten Schritt wird die von dem Hamiltionian unabhängigen modifizierte Gram-Matrix $G_{ii}$ bestimmt, 
+\noindent Im nächsten Schritt wird die von dem Hamiltionian unabhängige modifizierte Gram-Matrix $G_{ij}$ bestimmt, 
 welche in diesem Fall eindimesnional ist.
 Damit erhalten wir
 \begin{align}
-    G_{11} = \frac{1}{\left(1 + \mu\overline{\mu}\right)^2} \text{\space\space bzw.\space\space } G_{11}^{-1} = \left(1 + \mu\overline{\mu}\right)^2
+    G_{11} = \frac{1}{\left(1 + \mu\overline{\mu}\right)^2} \text{\space\space bzw.\space\space } G_{11}^{-1} = \left(1 + \mu\overline{\mu}\right)^2 .
 \end{align}
-\noindent Einsetzen in die verallgemeinerte Euler-Lagrange-Gleichung \autoref{verallgemeinerter_Euler_Lagrange} liefert:
+\noindent Einsetzen in die verallgemeinerte Euler-Lagrange-Gleichung Gl. (\ref{verallgemeinerter_Euler_Lagrange}) liefert:
 \begin{align}
-    i\dot{\mu} &=  \left(G_{11}\right)^{-1}\partial_{\muk} \mathcal{H} = \frac{b_x}{2}(1-\mu^2) + \frac{i b_y }{2}(1+\mu^2) -\mu b_z\\
+    i\dot{\mu} &=  \left(G_{11}\right)^{-1}\partial_{\muk} \mathcal{H} = \frac{b_x}{2}(1-\mu^2) + \frac{i b_y }{2}(1+\mu^2) -\mu b_z\label{Larmor}\\
     \leftrightarrow \dot{\mu} &= \frac{ b_y }{2}(1+\mu^2) - \frac{ib_x}{2}(1-\mu^2)   + i\mu b_z .
 \end{align}
 Die normierten \textbf{Spin-Erwartungswerte} $\frac{\bra{\Psi}\hat{\vec{S}}\ket{\Psi}}{\N}$ lauten:
@@ -315,12 +313,11 @@ denn einfaches Auflösen führt ebenfalls zu
 \begin{align}
     \frac{\alpha}{2} \frac{(\mu_2-\mu_1)(1+\mu_1\muk_2)}{1+\mu_2\muk_2}.
 \end{align}
-Dies entspricht gerade dem letzten Summanden in Gl. (\ref{DGL_klassisch_S}) und (\ref{DGL_klassisch_I}).
 Hier lässt sich erkennen, dass die $\alpha\frac{\bra{\Psi}\hat{I_i}\ket{\Psi}}{\N}$ die Rolle des Magnetfeldes $\vec{b}$ in der Ein-Spin-Lösung 
 übernehmen. Wir erhalten dann aus Symmetriegründen:
 \begin{align}
     \frac{d}{dt}\left[\frac{\bra{\Psi}\hat{\vec{S}}\ket{\Psi}}{\N}\right] &= \left(\vec{b} + \alpha \frac{\bra{\Psi}\hat{\vec{I}}\ket{\Psi}}{\N}\right)\cross\frac{\bra{\Psi}\hat{\vec{S}}\ket{\Psi}}{\N} \label{DGL_1}\\
-    \frac{d}{dt}\left[\frac{\bra{\Psi}\hat{\vec{I}}\ket{\Psi}}{\N}\right] &= \left(z\vec{b} + \alpha \frac{\bra{\Psi}\hat{\vec{S}}\ket{\Psi}}{\N}\right)\cross\frac{\bra{\Psi}\hat{\vec{I}}\ket{\Psi}}{\N} \label{DGL_2}
+    \frac{d}{dt}\left[\frac{\bra{\Psi}\hat{\vec{I}}\ket{\Psi}}{\N}\right] &= \left(z\vec{b} + \alpha \frac{\bra{\Psi}\hat{\vec{S}}\ket{\Psi}}{\N}\right)\cross\frac{\bra{\Psi}\hat{\vec{I}}\ket{\Psi}}{\N} \label{DGL_2}.
 \end{align}
 
 
@@ -332,16 +329,16 @@ Hier lässt sich erkennen, dass die $\alpha\frac{\bra{\Psi}\hat{I_i}\ket{\Psi}}{
 \section{Modifizierter Ansatz: Quantenkorrektur}
 \noindent Wie im vorherigen Abschnitt zu sehen, erhalten wir eine klassiche Lösung. Um eine genauere Lösung zu erhalten, 
 führen wir einen weiteren Korrekurparameter $\mu_{12}$ ein, wodurch ein größerer Unterraum des zwei 1/2-Spin-Hilbertraumes aufgespannt 
-wird, mit der Hoffnung im Gegensatz zum klassischen Ansatz die Verschränkung zu berücksichtigen:
+wird, mit der Hoffnung im Gegensatz zum klassischen Ansatz die Verschränkung zu berücksichtigen. Der modifizierte Ansatz lautet:
 \begin{align}
     \ket{\Psi(\mu_1,\mu_2,\mu_{12})} &= e^{\mu_1 S_1^-}e^{\mu_2 S_2^-}e^{\mu_{12} S_1^-S_2^-}\ket{\uparrow,\uparrow}\\
-                                    &= \ket{\uparrow \uparrow} +\mu_1\ket{\downarrow \uparrow} + \mu_2\ket{\uparrow \downarrow} + (\mu_1\mu_2 + \mu_{12})\ket{\downarrow \downarrow}
+                                    &= \ket{\uparrow \uparrow} +\mu_1\ket{\downarrow \uparrow} + \mu_2\ket{\uparrow \downarrow} + (\mu_1\mu_2 + \mu_{12})\ket{\downarrow \downarrow}.
 \end{align}
-Wird  die Phasenfreiheit und die Normierung berücksichtigt und unter einem komplexen Parameter $\mu_0$ zusammengefasst
+Wird  die Phasenfreiheit und die Normierung berücksichtigt und unter einem komplexen Parameter $\mu_0$ zusammengefasst, ergibt sich
 \begin{align}
     \underbrace{Ne^{i\phi}}_{=\mu_0}\ket{\Psi} &= \underbrace{\mu_0}_{\alpha_1}\ket{\uparrow \uparrow} 
     + \underbrace{\mu_0\mu_1}_{\alpha_2}\ket{\downarrow \uparrow} + \underbrace{\mu_0\mu_2}_{\alpha_3}\ket{\uparrow \downarrow} 
-    + \underbrace{\mu_0(\mu_1\mu_2 + \mu_{12})}_{\alpha_4}\ket{\downarrow\downarrow}
+    + \underbrace{\mu_0(\mu_1\mu_2 + \mu_{12})}_{\alpha_4}\ket{\downarrow\downarrow}.
 \end{align}
 Im Gegensatz zum klassischen Ansatz lässt sich erkennen, dass alle Parameter $\alpha_i$, einschließlich $\alpha_4$, unabhängig sind. Somit ist der gesamte
 Hilbertraumabgedeckt und die exakte Lösung zu erwarten.\\

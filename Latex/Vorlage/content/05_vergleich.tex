@@ -32,10 +32,10 @@ Es wird der Produkt-Startzustand
 \begin{align}
     \ket{\Psi_0}=\frac{1}{2}(\ket{\uparrow}_S + \ket{\downarrow}_S)(\ket{\uparrow}_I + i\ket{\downarrow}_I)
 \end{align}
-verwendet, welcher Äquivalent zu eine Elektronenspinerwartungswert $\langle\vec{S}\rangle$ entlang der X-Achse und orthogonal
-dazu dem Kernspinerwartungswert $\langle\vec{I}\rangle$ entlang der Y-Achse, beide auf der X-Y-Ebene liegend wie in \autoref{fig:Plots_Start} zu sehen.
-Unter all den möglichen Startzuständen gewählt, da dies ein sehr einfachen und anschaulichen Fall darstellt, da das Magnetfeld und beide Spinvektoren 
-ein Dreibein bilden und gleich zu Beginn die Wirkung der Kopplungen unter einander durch die Orthogonalität am stärksten ist.
+verwendet, welcher Äquivalent zu einem Elektronenspinerwartungswert $\langle\vec{S}\rangle$ entlang der X-Achse und orthogonal
+dazu einem Kernspinerwartungswert $\langle\vec{I}\rangle$ entlang der Y-Achse ist, beide auf der X-Y-Ebene liegend wie in \autoref{fig:Plots_Start} zu sehen.
+Dieser Startzustand wurde unter all den möglichen Startzuständen gewählt, da dieser einen sehr einfachen und anschaulichen Fall darstellt, denn das Magnetfeld und beide Spinvektoren 
+bilden ein Dreibein und gleich zu Beginn ist die Wirkung der Kopplungen untereinander durch die Orthogonalität am stärksten.
 
 Dabei wird zur Lösung der Differentialgleichungen Gl. (\ref{DGL_1}) und Gl. (\ref{DGL_2}) das Runge-Kutta-Verfahren verwendet, da die 
 Bewegungsgleichungen die Form besitzen:
@@ -50,28 +50,28 @@ Bewegungsgleichungen die Form besitzen:
 %∗ ≈ 1 ns
 %Die Parameter werden nah am experimentellen Aufbau gegeben von Greilich et al.\cite{PMID:17901328} gewählt, d.h. wir nehmen an,
 In vorherigen Vergleichen zwischen Experiment und Theorie ergab sich für die charakteristische Zeit $T^*\approx 1 \thinspace$ns\cite{PhysRevB.89.045317}, 
-woraus für die Heisenbergkopplungskonstante $A = \sqrt{\frac{4}{3}}\cdot 10^9 \frac{1}{s}$ folgt. Des weiteren wird
-$z=\frac{1}{800}$ und ein Magnetfeld mit $B = 0.5$ T gewählt, darüber hinaus wird die Zeitspanne so lang gewählt, dass die die Umhüllende der 
-summierten Spinlänge $|\langle \left( \vec{S}+\vec{I} \right)\rangle |$  der exakten Lösung in \autoref{fig:Plots_Spinlength} ihr erstes Minimum 
+woraus über Gl. (\ref{charakteristische_Zeit}) für die Heisenbergkopplungskonstante $A = \sqrt{\frac{4}{3}}\cdot 10^9 \frac{1}{s}$ folgt. Des weiteren wird
+$z=\frac{1}{800}$ und ein Magnetfeld mit $B = 0.5$ T gewählt. Darüber hinaus wird die Zeitspanne so lang gewählt, dass die Umhüllende der 
+summierten Spinlänge $|\langle \left( \vec{S}+\vec{I} \right)\rangle |$  der exakten Lösung in \autoref{fig:Plots_Spinlength} Panel (b) ihr erstes Minimum 
 überschreitet.
 \begin{figure}[h]
     \centering
-    \includegraphics[width = 0.45\textwidth]{Abbildungen/Plot_Sx.png}
-    \includegraphics[width = 0.45\textwidth]{Abbildungen/Plot_Sy.png}
-    \includegraphics[width = 0.45\textwidth]{Abbildungen/Plot_Sz.png}
+    \includegraphics[width = 0.45\textwidth]{Abbildungen/Plot_Sx_index.png}
+    \includegraphics[width = 0.45\textwidth]{Abbildungen/Plot_Sy_index.png}
+    \includegraphics[width = 0.45\textwidth]{Abbildungen/Plot_Sz_index.png}
     \caption{Spin-Erwartungswerte des Elektronenspins S (Rot) und des Kernspins (Grün) und der jeweils exakten quantenmechanischen Lösung
     (Schwarz) gegen die Zeit t aufgetragen für die Parameter: $B = 0.5$ T, $T^*= 1 \thinspace$ns, $A_k = \sqrt{\frac{4}{3}}\cdot 10^9 \frac{1}{s}$,
     $z=\frac{1}{800}$.}
     \label{fig:Plots_2D}
 \end{figure}
 
-Aus \autoref{fig:Plots_2D} im unteren Panel ist sehr gut zu erkennen, dass durch die Heisenbergkopplung die Spinerwartungswerte $\langle\hat{S}_z \rangle$ 
+Aus \autoref{fig:Plots_2D} Panel (e) und (f) ist sehr gut zu erkennen, dass durch die Heisenbergkopplung die Spinerwartungswerte $\langle\hat{S}_z \rangle$ 
 und $\langle\hat{I}_z \rangle$ um den Nullpunkt oszillieren und sehr kleine Amplituden besitzen, worauf geschloßen werden kann, dass die 
 Spins einigermaßen auf der X-Y-Ebene verweilen und die Frequenz der klassischen Lösung deutlich größer ist als bei der Exakten.
 \begin{figure}[h!]
     \centering
-    \includegraphics[width = 0.45\textwidth]{Abbildungen/Plot_Vektor_Quant.png}
-    \includegraphics[width = 0.45\textwidth]{Abbildungen/Plot_Vektor_Klassisch.png}
+    \includegraphics[width = 0.45\textwidth]{Abbildungen/Plot_Vektor_Quant_index.png}
+    \includegraphics[width = 0.45\textwidth]{Abbildungen/Plot_Vektor_Klassisch_index.png}
     \caption{Spinerwartungswerte als Vektoren zum Endzeitpunkt des betrachten Zeitraums zum genannten Startzustand samt abgefahrener Spur der
     quantenmechanischen Lösung (Links) und der klassischen Lösung (Rechts) für die Parameter: $B = 0.5$ T, $T^*= 1 \thinspace$ns, $A_k = \sqrt{\frac{4}{3}}\cdot 10^9 \frac{1}{s}$,
     $z=\frac{1}{800}$.}
@@ -80,37 +80,35 @@ Spins einigermaßen auf der X-Y-Ebene verweilen und die Frequenz der klassischen
 % Kreisbahnen als Verschränkung. Kreiszentren präzedieren. Kreiszentrumposition aus logischen gründen anhand der addierten Spinlänge erkennbar.
 
 Wie für die klassische Lösung zu erwarten, präzedieren Elektronen- und Kernspin um das in z-Achse ausgerichtete Magnetfeld, wobei durch die stärkere Kopplung
-die Larmorfrequenz für das Elektron deutlich größer ist. Dies macht sich besonders deutlich in \autoref{fig:Plots_2D} in den oberen beiden 
-Panels, wo die grüne Kurve (Kernspin) einer Geraden gleicht und zeitglich im selben Zeitintervall die rote Kurve (Elektron) mehrere Oszilattionen vollführt; 
-oder wie in \autoref{fig:Plots_3D} rechtes Panel, wo der grüne Spurverlauf (Kernspin) marginal kurz ist im Vergleich zur roten Kreisspur (Elektron), 
+die Larmorfrequenz für das Elektron deutlich größer ist. Dies macht sich besonders deutlich in \autoref{fig:Plots_2D} Panel (b) und (d), wo die grüne 
+Kurve (Kernspin) einer Geraden gleicht und zeitglich in Panel (a) und (c) im selben Zeitintervall die rote Kurve (Elektron) mehrere Oszilattionen vollführt; 
+oder wie in \autoref{fig:Plots_3D} Panel (b), wo der grüne Spurverlauf (Kernspin) marginal kurz ist im Vergleich zur roten Kreisspur (Elektron), 
 in der der Elektronenspin schon mindestens eine Kreisbahn abgefahren ist.\\ 
 \begin{figure}[h]
     \centering
-    \includegraphics[width = 0.45\textwidth]{Abbildungen/Plot_Spin_length.png}
-    \includegraphics[width = 0.45\textwidth]{Abbildungen/Plot_Spin_length_Klassisch.png}
+    \includegraphics[width = 0.45\textwidth]{Abbildungen/Plot_Spin_length_index.png}
+    \includegraphics[width = 0.45\textwidth]{Abbildungen/Plot_Spin_length_Klassisch_index.png}
     \caption{Spinlängen-Erwartungswert der Einzelspins und addierten Spins des Kern-und Elektronenspins der exakten Lösung(links) und der klassischen 
     Lösung(rechts) gegen die Zeit aufgetragen für die Parameter: $B = 0.5$ T, $T^*= 1 \thinspace$ns, $A_k = \sqrt{\frac{4}{3}}\cdot 10^9 \frac{1}{s}$,
     $z=\frac{1}{800}$.}
     \label{fig:Plots_Spinlength}
 \end{figure}
-
-Die exakte Lösung berücksichtigt die Verschränkung beider Spins, welches sich hauptaugenscheinlich durch Veränderungen der Einzelspinlängen ausdrückt 
-wie in \autoref{fig:Plots_Spinlength} zu sehen. Dabei sind beide Spinlängen zu jedem Zeitpunkt identisch, was am totalen 
-Überlappen beider Plots zu sehen ist; dasselbe gilt auch für den klassischen Fall, wobei die Spinlängen konstant bei 0.5 bleiben.\\
-In \autoref{fig:Plots_3D} ist sehr gut zu erkennen, dass anders als im klassischen Fall die Spins im quantenmechanischem Fall Kreisbahnen abfahren, 
-dessen Mittelpunkte nicht im Ursprung liegen, sondern gerade mittig zwischen Ursprung und maximaler Spinlänge. Trotzdessen ist eine Larmor-Präzessionsbewegung wie im Klassischen 
+\noindent Die exakte Lösung berücksichtigt die Verschränkung beider Spins, welches sich hauptaugenscheinlich durch Veränderungen der Einzelspinlängen ausdrückt 
+wie in \autoref{fig:Plots_Spinlength} Panel (a) und (b) zu sehen. Dabei sind beide Spinlängen in den Panels (a)  zu jedem Zeitpunkt identisch, was am totalen 
+Überlappen beider Plots zu sehen ist; dasselbe gilt auch für den klassischen Fall in Panel (c), wobei die Spinlängen konstant bei 0.5 bleiben.\\
+In \autoref{fig:Plots_3D} ist sehr gut zu erkennen, dass anders als im klassischen Fall (Panel (b)) die Spins im quantenmechanischem Fall (Panel (a)) 
+Kreisbahnen abfahren, dessen Mittelpunkte nicht im Ursprung liegen, sondern gerade mittig zwischen Ursprung und maximaler Spinlänge. Trotzdessen ist eine Larmor-Präzessionsbewegung wie im Klassischen 
 zu beobachten, in der nicht die Spinerwartungswerte präzedieren, sondern die jeweiligen Kreismittelpunkte, was zu den charakteristschen Schlaufen führt.\\
 Dabei präzediert der Elektronenspin wie zu erwarten um einiges schneller als der schwachgekoppelte Kernspin um das Magnetfeld, welches gut in der 
-ausgeprägten Schlaufenbildung in \autoref{fig:Plots_3D} linkes Panel zu sehen ist. 
+ausgeprägten Schlaufenbildung in \autoref{fig:Plots_3D} Panel (a) zu sehen ist. 
 
-
-Über \autoref{fig:Plots_3D} linkes Panel lässt sich anschaulich erklären, wie sich der zeitliche Verlauf der 
-Spinlängen $|\langle \left( \vec{S}+\vec{I} \right)\rangle |$ der exakten Lösung in \autoref{fig:Plots_Spinlength} zu Stande kommt. Die addierten 
-Spinlängen oszillieren und sind von einer Umhüllenden umschlossen, die ihr Minimum bei etwa $t=3$ besitzt. Dies entspricht in etwa der halben Zeitdauer
-des betrachteten Intervalls, woraus sich abschätzen lässt, dass in \autoref{fig:Plots_3D} linkes Panel der Elektronenspin den halben Schlaufenverlauf erst 
+Über \autoref{fig:Plots_3D} Panel (a) lässt sich anschaulich erklären, wie sich der zeitliche Verlauf der 
+Spinlängen $|\langle \left( \vec{S}+\vec{I} \right)\rangle |$ der exakten Lösung in \autoref{fig:Plots_Spinlength} in Panel (b) zu Stande kommt. Die 
+addierten Spinlängen oszillieren und sind von einer Umhüllenden umschlossen, die ihr Minimum bei etwa $t=3$ besitzt. Dies entspricht in etwa der halben Zeitdauer
+des betrachteten Intervalls, woraus sich abschätzen lässt, dass in \autoref{fig:Plots_3D} Panel (a) der Elektronenspin den halben Schlaufenverlauf erst 
 abgefahren ist. \\
-Dort liegen die Kreiszentren des Elektronenspin- und Kernspinerwartungswert gegenüberliegen, wodurch sie nur antiparallele
+Dort liegen die Kreiszentren des Elektronenspin- und Kernspinerwartungswert gegenüber, wodurch sie nur antiparallele
 und keine parallelen Komponeneten teilen und sich in der Vektorsumme kürzen. Eine analoge Betrachtung erklärt, deshalb warum die addierte Spinlänge
 jeweils an den beiden Enden des Zeitintervall über die Einzel-Spinlänge von 0.5 wächst.\\
-Im rechten Panel von \autoref{fig:Plots_Spinlength} wird nochmal verdeutlicht, dass die Einzeilspinlängen in der klassischen Lösung konstant bleiben und es im rechten unteren Panel auch 
-Oszillationen gibt, die von der Larmor-Frequenzdifferenz abhängen. 
+In \autoref{fig:Plots_Spinlength} Panel (c) wird nochmal verdeutlicht, dass die Einzeilspinlängen in der klassischen Lösung konstant bleiben, aber es in 
+Panel (d) bei der addierten Spinlänge zu Oszillationen kommt, die von der Larmor-Frequenzdifferenz abhängen. 
