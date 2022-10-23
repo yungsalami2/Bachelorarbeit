@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.5.16)  23 OCT 2022 19:51
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.5.16)  23 OCT 2022 20:12
  restricted system commands enabled.
 **thesis.tex
 (./thesis.tex
@@ -1974,12 +1974,9 @@ f , page1 used on input line 183.
 
 <./content/Eidesstattliche_Versicherung_unterschrieben.pdf>]
 (./thesis.aux)
+Package rerunfilecheck Info: File `thesis.aux' has not changed.
+(rerunfilecheck)             Checksum: B3CFA40B25E401C43851DEAC6B59C930;22194.
 
-Package rerunfilecheck Warning: File `thesis.aux' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `thesis.aux':
-(rerunfilecheck)             Before: 7EF4E5EF5F70D0C28E0B1509BF80489D;22162
-(rerunfilecheck)             After:  B3CFA40B25E401C43851DEAC6B59C930;22194.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1999,7 +1996,7 @@ ttribute, 83 glue_spec, 65 attribute_list, 1 write, 16 pdf_action nodes
    avail lists: 1:5,2:2082,3:502,4:204,5:827,6:116,7:8221,8:124,9:2659,10:25,11:
 782
  57556 multiletter control sequences out of 65536+600000
- 102 fonts using 27289235 bytes
+ 102 fonts using 27289419 bytes
  122i,20n,118p,10601b,2240s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/salem/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-re
 gular.otf></home/salem/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/l
@@ -2016,10 +2013,10 @@ nts/opentype/public/lm/lmroman10-regular.otf></home/salem/.local/texlive/2021/te
 xmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/salem/.local/texl
 ive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/salem/.loc
 al/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on thesis.pdf (33 pages, 3923714 bytes).
+Output written on thesis.pdf (33 pages, 3635050 bytes).
 
-PDF statistics: 618 PDF objects out of 1000 (max. 8388607)
- 507 compressed objects within 6 object streams
+PDF statistics: 617 PDF objects out of 1000 (max. 8388607)
+ 506 compressed objects within 6 object streams
  170 named destinations out of 1000 (max. 131072)
  113 words of extra memory for PDF output out of 10000 (max. 100000000)
 
