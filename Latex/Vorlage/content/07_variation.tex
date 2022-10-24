@@ -1,5 +1,5 @@
 \chapter{Variationsprinzip}
-Es gibt viele Ansätze den Hamiltonian des Zentralspinmodells zu lösen, die von der exakten Lösung über 
+Es gibt viele Ansätze den Hamiltonoperator des Zentralspinmodells zu lösen, die von der exakten Lösung über 
 semiklassischen Ansätzen\cite{PhysRevB.65.205309,PhysRevB.94.094308,PhysRevB.70.205327,NatalieJaeschke} bishin zum
 Chebychev Expansionstheorem reichen\cite{PhysRevB.89.045317}, welche ihre eigenen Vor- und Nachteile beherbergen. 
 Gerade bei einer großen Anzahl von Kernspins ist eine exakte quantenmechanische Lösung nicht anwendbar. Deshalb finden semiklassische Ansätze Verwendung, 
@@ -74,7 +74,7 @@ zu den Zustandsvektoren $\ket{\partial_{\mu_i}\Psi}$ ergeben sich schlussendlich
     i\dot{\mu_i} &= \sum_{j}\left(G_{ij}\right)^{-1}\thinspace \langle\partial_{\muk_j}\Psi|\hat{H}\ket{\Psi}.
 \end{align}
 Da in dieser Arbeit ein nicht-normierter Wellenfunktionsansatz verwendet wird, ist der verallgemeinerte Fall von besonderem Interesse. Die Zeitentwicklung
-des Hamiltonian ist unitär und somit normerhaltend, was aber nicht mehr für die Projektion gilt. Wir
+des Hamiltonoperators ist unitär und somit normerhaltend, was aber nicht mehr für die Projektion gilt. Wir
 können die modifizierte Lagrange-Funktion $\widetilde{L}(\overline{\Psi}(t), \Psi(t)) = \frac{L(\overline{\Psi}(t), \Psi(t))}{\langle \Psi(t)|\Psi\rangle}$
 definieren und unter Berücksichtigung der Parametrisierung erhalten wir
 \begin{align}
@@ -151,7 +151,7 @@ verallgemeinerte Euler-Lagrange-Gleichungen Gl. (\ref{verallgemeinerter_Euler_La
 \section{Spin-1/2 im konstanten Magnetfeld}
 Zum besseren Verständnis des TDVPs ist die beispielhafte Betrachtung des vereinfachten Falles sehr aufschlussreich. 
 Zudem lassen sich Identitäten herleiten, die in die Erweiterung zum \textbf{Zentralspinmodell} Wiederverwendung finden werden. Hierfür wird nur der erste 
-Summand des Zentralspinmodells betrachtet bzw. der Hamilton-Operator für einen Spin in einem Magnetfeld:
+Summand des Zentralspinmodells betrachtet bzw. der Hamiltonoperator für einen Spin in einem Magnetfeld:
 \begin{align}
     \hat{H}_1 &= \vec{b}\hat{\vec{S}} = \left(b_x\hat{S}_x+b_y\hat{S}_y+b_z\hat{S}_z \right) \\
     &= \frac{b_x}{2}\Bigl(\ket{\downarrow}\!\bra{\uparrow}+\ket{\uparrow}\!\bra{\downarrow}\Bigr) \\
@@ -176,7 +176,7 @@ Somit ergibt sich der effektive Hamilton-Funktion und seine partielle Ableitung 
     \mathcal{H} &= \frac{1}{2}\frac{b_x(\mu +\muk) + ib_y(\muk - \mu) + b_z(1-\mu\muk) }{1+\mu\muk}    \\
     \partial_{\muk} \mathcal{H} &= \frac{1}{2} \frac{b_x(1-\mu^2) + ib_y(1+\mu^2) - 2\mu b_z}{(1+\mu\muk)^2} .
 \end{align}
-\noindent Im nächsten Schritt wird die von dem Hamiltionian unabhängige modifizierte Gram-Matrix $G_{ij}$ bestimmt, 
+\noindent Im nächsten Schritt wird die von dem Hamiltonoperator unabhängige modifizierte Gram-Matrix $G_{ij}$ bestimmt, 
 welche in diesem Fall eindimesnional ist.
 Damit erhalten wir
 \begin{align}
@@ -342,13 +342,13 @@ Wird  die Phasenfreiheit und die Normierung berücksichtigt und unter einem komp
 \end{align}
 Im Gegensatz zum klassischen Ansatz lässt sich erkennen, dass alle Parameter $\alpha_i$, einschließlich $\alpha_4$, unabhängig sind. Somit ist der gesamte
 Hilbertraumabgedeckt und die exakte Lösung zu erwarten.\\
-Aufgrund der Tatsache, dass bei einem $\vec{b}$-Feld in beliebiger Richtung, sich die Rechnung und Ergebnisse außerordentlich verkomplizieren, ohne 
+Aufgrund der Tatsache, dass bei einem $\vec{b}$-Feld in beliebiger Orientierung, sich die Rechnung und Ergebnisse außerordentlich verkomplizieren, ohne 
 wirklich neue Erkenntnis zu bringen, wird das Magnetfeld in z-Richtung ausgerichtet. Somit vereinfacht sich der 
-Hamiltonian (\ref{zweiSpinHamilton}) zu:
+Hamiltonoperator (\ref{zweiSpinHamilton}) zu:
 \begin{align}\label{Hamiltonian_Bz}
     \hat{H} &= b\hat{S}_z +  zb\hat{I}_z + \alpha \hat{\vec{S}}\hat{\vec{I}}
 \end{align}
-Mit diesem Ansatz erhalten wir nach längerer Rechnung die effektive Hamiltonfunktion:
+Mit diesem Ansatz erhalten wir nach längerer Rechnung die effektive Hamilton-Funktion:
 \begin{align}
     \mathcal{H} &= \frac{\bra{\Psi}\hat{H}_1\ket{\Psi} +\bra{\Psi}\hat{H}_2\ket{\Psi} + \bra{\Psi}\hat{H}_3\ket{\Psi}}{\N}
 \end{align}
