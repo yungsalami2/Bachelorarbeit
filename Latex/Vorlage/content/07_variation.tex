@@ -26,7 +26,7 @@ mit der Lagrange-Funktion und der normierten Wellenfunktion $\ket{\Psi}$:
 \begin{align}\label{Lagrange}
     L\left(\overline{\Psi}(t), \Psi(t), t\right)=\frac{i}{2}\langle\Psi(t) \mid \dot{\Psi}(t)\rangle-\frac{i}{2}\langle\dot{\Psi}(t) \mid \Psi(t)\rangle-\langle\Psi(t)|\hat{H}(t)| \Psi(t)\rangle
 \end{align}
-hergeleitet werden. Der Kürze halber wird die explitzite Zeitabhängigkeit von $\hat{H}$ vernachlässigt und damit auch die von $L$. Stationarität der Wirkung 
+hergeleitet werden. Der Kürze halber wird die explizite Zeitabhängigkeit von $\hat{H}$ vernachlässigt und damit auch die von $L$. Stationarität der Wirkung 
 $\delta S \overset{!}{=} 0$ unter der unabhängigen Variation von $\ket{\Psi}$ und $\bra{\Psi}$ im vollen Hilbertraum $H$ reproduziert die zeitabhängige 
 Schrödingergleichung (und ihr Konjugiertes).\
 
@@ -65,7 +65,7 @@ erfüllt ist. Über einen Koeffizientenvergleich zwischen
     \hat{P}_{T_{\mu}M}\hat{H}\ket{\Psi} = \sum_{i,j}\left((G_{i,j})^{-1}\ 
     \langle\partial_{\muk_j}\Psi|\hat{H}\ket{\Psi}\right)\ket{\partial_{\mu_i}\Psi}
 \end{align} 
-und aus (\ref{Residuum})
+und aus Gl. (\ref{Residuum})
 \begin{align}
     i\sum_k \dot{\mu}_k\ket{\partial_{\mu_k}\Psi}
 \end{align}
@@ -78,7 +78,7 @@ des Hamiltonian ist unitär und somit normerhaltend, was aber nicht mehr für di
 können die modifizierte Lagrange-Funktion $\widetilde{L}(\overline{\Psi}(t), \Psi(t)) = \frac{L(\overline{\Psi}(t), \Psi(t))}{\langle \Psi(t)|\Psi\rangle}$
 definieren und unter Berücksichtigung der Parametrisierung erhalten wir
 \begin{align}
-        \widetilde{L}(\vec{\muk}(t),\vec{\mu}(t)) &= \frac{i}{2}\sum_j\left(\dot{\mu_j}(t)\partial_{\mu_j} + \dot{\muk_j}(t)\partial_{\muk_j}\right)
+        \widetilde{L}(\vec{\muk}(t),\vec{\mu}(t)) &= \frac{i}{2}\sum_j\left(\dot{\mu}_j(t)\partial_{\mu_j} + \dot{\muk}_j(t)\partial_{\muk_j}\right)
         ln\left(\langle\Psi(\vec{\muk}(t))|\Psi(\vec{\mu}(t))\rangle\right) - \mathcal{H}(\vec{\muk}(t),\vec{\mu}(t))
 \end{align}
 mit der effektiven Hamilton-Funktion
@@ -346,7 +346,7 @@ Aufgrund der Tatsache, dass bei einem $\vec{b}$-Feld in beliebiger Richtung, sic
 wirklich neue Erkenntnis zu bringen, wird das Magnetfeld in z-Richtung ausgerichtet. Somit vereinfacht sich der 
 Hamiltonian (\ref{zweiSpinHamilton}) zu:
 \begin{align}\label{Hamiltonian_Bz}
-    \hat{H} &= \vec{b}\hat{\vec{S}}_z +  z\vec{b}\hat{\vec{I}}_z + \alpha \hat{\vec{S}}\hat{\vec{I}}
+    \hat{H} &= b\hat{S}_z +  zb\hat{I}_z + \alpha \hat{\vec{S}}\hat{\vec{I}}
 \end{align}
 Mit diesem Ansatz erhalten wir nach längerer Rechnung die effektive Hamiltonfunktion:
 \begin{align}
