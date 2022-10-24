@@ -71,7 +71,7 @@ und aus (\ref{Residuum})
 \end{align}
 zu den Zustandsvektoren $\ket{\partial_{\mu_i}\Psi}$ ergeben sich schlussendlich die \textbf{Euler-Lagrange-Gleichungen} für den normierten Fall:
 \begin{align}
-    i\dot{\mu_i} &= \sum_{j}\left(G_{ij}\right)^{-1}\thinspace \langle\partial_{\muk_j}\Psi|\hat{H}\ket{\Psi}
+    i\dot{\mu_i} &= \sum_{j}\left(G_{ij}\right)^{-1}\thinspace \langle\partial_{\muk_j}\Psi|\hat{H}\ket{\Psi}.
 \end{align}
 Da in dieser Arbeit ein nicht-normierter Wellenfunktionsansatz verwendet wird, ist der verallgemeinerte Fall von besonderem Interesse. Die Zeitentwicklung
 des Hamiltonian ist unitär und somit normerhaltend, was aber nicht mehr für die Projektion gilt. Wir
@@ -105,13 +105,13 @@ und aus $ \langle\partial_{\muk_j}\Psi|\hat{H}\ket{\Psi}$ unter Berücksichtigun
     \frac{\langle\partial_{\muk_j}\Psi|\hat{P}_0\thinspace\hat{H}\ket{\Psi}}{\langle\Psi|\Psi\rangle}    
                 &= \frac{\langle\partial_{\mu_j}\Psi|\hat{H}\ket{\Psi}}{\N} 
                 - \frac{\langle\partial_{\mu_j}\Psi|\Psi\rangle\langle\Psi|\hat{H}\ket{\Psi}}{\N^2} \nonumber \\
-                &= \partial_{\muk_j}\mathcal{H}                
+                &= \partial_{\muk_j}\mathcal{H} .               
 \end{align}
 
 Und damit erhalten wir wie beim direkten Ausrechnen der stationären Variation des Wirkungsfunkionals mit der modifizierten 
 Lagrangefunktion $\widetilde{L}$, die \textbf{verallgemeinerten Euler-Lagrange-Gleichungen}:
 \begin{align}\label{verallgemeinerter_Euler_Lagrange}
-    i\dot{\mu}_i &= \sum_{j}\left(\tilde{G}_{ij}\right)^{-1}\thinspace \partial_{\overline{\mu}_j}\mathcal{{H}}
+    i\dot{\mu}_i &= \sum_{j}\left(\tilde{G}_{ij}\right)^{-1}\thinspace \partial_{\overline{\mu}_j}\mathcal{{H}}.
 \end{align}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Ansatz_Wellen-Funktiom
@@ -193,12 +193,12 @@ Die normierten \textbf{Spin-Erwartungswerte} $\frac{\bra{\Psi}\hat{\vec{S}}\ket{
     \frac{\bra{\Psi}\hat{S_y}\ket{\Psi}}{\N} &= \frac{i}{2}\frac{\muk - \mu}{1+\mu\muk} = \frac{Im[\mu]}{1 + \mu\muk} \\
     \frac{\bra{\Psi}\hat{S_z}\ket{\Psi}}{\N} &= \frac{1}{2}\frac{1 - \mu\muk}{1 + \mu\muk}  .
 \end{align}
-Unter Verwendung der Identität 
+Unter Verwendung der Kettenregel 
 \begin{align}
     \frac{d}{dt}\left(\frac{\bra{\Psi}\hat{S_\alpha}\ket{\Psi}}{\N}\right) &= \partial_{\mu}\left[\frac{\bra{\Psi}\hat{S_\alpha}\ket{\Psi}}{\N}\right]\dot{\mu} 
     + \partial_{\muk}\left[\frac{\bra{\Psi}\hat{S_\alpha}\ket{\Psi}}{\N}\right]\dot{\muk}\label{dS_dt}
 \end{align}
-lassen sich die Bewegungsgleichungen der Spinerwartungswerte berechnen. Für $S_x$ ergibt sich:
+lassen sich die Bewegungsgleichungen der Spinerwartungswerte berechnen. Für $\hat{S}_x$ ergibt sich:
 \begin{flalign}
     \frac{d}{dt}\left(\frac{\bra{\Psi}\hat{S_x}\ket{\Psi}}{\N}\right) =& \frac{1}{2}\frac{1-\muk^2}{(1+\mu\muk)^2}\cdot\left[\frac{ b_y }{2}(1+\mu^2) - \frac{ib_x}{2}(1-\mu^2)   + i\mu b_z\right] \nonumber \\
     &+ \frac{1}{2}\frac{1-\mu^2}{(1+\mu\muk)^2}\cdot\left[\frac{ b_y }{2}(1+\muk^2) + \frac{ib_x}{2}(1-\muk^2)   - i\muk b_z\right]  \nonumber \\
@@ -206,19 +206,19 @@ lassen sich die Bewegungsgleichungen der Spinerwartungswerte berechnen. Für $S_
     &- \frac{ib_x}{2}\underbrace{\left[(1-\muk^2)(1-\mu^2) - (1-\mu^2)(1-\muk^2)\right]}_{=0}     \nonumber \\
     &+ ib_z\underbrace{\left[\mu(1-\muk^2) -\muk(1-\mu^2) \right]}_{=-(\muk - \mu)(1+\mu\muk)}      \bigg)                         \nonumber \\    
     =& b_y \frac{1}{2}\frac{1-\mu\muk}{(1+\mu\muk)} - b_z \frac{i}{2}\frac{\muk -\mu}{(1+\mu\muk)}  \nonumber  \\
-    =& b_y\left(\frac{\bra{\Psi}\hat{S_z}\ket{\Psi}}{\N}\right) - b_z\left(\frac{\bra{\Psi}\hat{S_x}\ket{\Psi}}{\N}\right).
+    =& b_y\left(\frac{\bra{\Psi}\hat{S_z}\ket{\Psi}}{\N}\right) - b_z\left(\frac{\bra{\Psi}\hat{S_x}\ket{\Psi}}{\N}\right),
 \end{flalign}
-Für $S_y$:
+für $\hat{S}_y$:
 \begin{flalign}
     \frac{d}{dt}\left(\frac{\bra{\Psi}\hat{S_y}\ket{\Psi}}{\N}\right) =& -\frac{i}{2}\frac{1+\muk^2}{(1+\mu\muk)^2}\cdot\left[\frac{ b_y }{2}(1+\mu^2) - \frac{ib_x}{2}(1-\mu^2)   + i\mu b_z\right] \nonumber \\
     &+ \frac{i}{2}\frac{1+\mu^2}{(1+\mu\muk)^2}\cdot\left[\frac{ b_y }{2}(1+\muk^2) + \frac{ib_x}{2}(1-\muk^2)   - i\muk b_z\right]  \nonumber \\
-    =& \frac{i}{2(1+\mu\muk)^2}\bigg(\frac{b_y}{2}\underbrace{[(1+\muk^2)(1+\mu^2) - (1+-\mu^2)(1+\muk^2)]}_{=0} \nonumber \\
+    =& \frac{i}{2(1+\mu\muk)^2}\bigg(\frac{b_y}{2}\underbrace{[(1+\muk^2)(1+\mu^2) - (1+\mu^2)(1+\muk^2)]}_{=0} \nonumber \\
     &+ \frac{ib_x}{2}\underbrace{\left[(1+\muk^2)(1-\mu^2) + (1-\mu^2)(1+\muk^2)\right]}_{=2(1-\mu\muk)(1+\mu\muk)}     \nonumber \\
     &+ ib_z\underbrace{\left[\mu(1-\muk^2) -\muk(1-\mu^2) \right]}_{=-(\muk + \mu)(1+\mu\muk)}      \bigg)                         \nonumber \\    
     =& -b_x \frac{1}{2}\frac{1-\mu\muk}{(1+\mu\muk)} + b_z \frac{1}{2}\frac{\muk +\mu}{(1+\mu\muk)}  \nonumber  \\
-    =& b_z\left(\frac{\bra{\Psi}\hat{S_x}\ket{\Psi}}{\N}\right) - b_x\left(\frac{\bra{\Psi}\hat{S_z}\ket{\Psi}}{\N}\right).
+    =& b_z\left(\frac{\bra{\Psi}\hat{S_x}\ket{\Psi}}{\N}\right) - b_x\left(\frac{\bra{\Psi}\hat{S_z}\ket{\Psi}}{\N}\right) 
 \end{flalign}
-Für $S_z$:
+und schlussendlich für $\hat{S}_z$:
 \begin{flalign}
     \frac{d}{dt}\left(\frac{\bra{\Psi}\hat{S_z}\ket{\Psi}}{\N}\right) =& -\frac{\muk}{(1+\mu\muk)^2}\cdot\left[\frac{ b_y }{2}(1+\mu^2) - \frac{ib_x}{2}(1-\mu^2)   + i\mu b_z\right] \nonumber \\
     &- \frac{\mu}{(1+\mu\muk)^2}\cdot\left[\frac{ b_y }{2}(1+\muk^2) + \frac{ib_x}{2}(1-\muk^2)   - i\muk b_z\right]  \nonumber \\
@@ -348,7 +348,7 @@ Hamiltonian (\ref{zweiSpinHamilton}) zu:
 \begin{align}\label{Hamiltonian_Bz}
     \hat{H} &= \vec{b}\hat{\vec{S}}_z +  z\vec{b}\hat{\vec{I}}_z + \alpha \hat{\vec{S}}\hat{\vec{I}}
 \end{align}
-Mit diesem Ansatz erhalten wir nach längerer Rechnung den modifizierten Hamiltonian:
+Mit diesem Ansatz erhalten wir nach längerer Rechnung die effektive Hamiltonfunktion:
 \begin{align}
     \mathcal{H} &= \frac{\bra{\Psi}\hat{H}_1\ket{\Psi} +\bra{\Psi}\hat{H}_2\ket{\Psi} + \bra{\Psi}\hat{H}_3\ket{\Psi}}{\N}
 \end{align}
