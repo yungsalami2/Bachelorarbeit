@@ -658,22 +658,6 @@
       \field{pages}{352\bibrangedash 355}
       \range{pages}{4}
     \endentry
-    \entry{noauthor_2008-dn}{incollection}{}
-      \list{location}{1}{%
-        {Berlin, Heidelberg}%
-      }
-      \list{publisher}{1}{%
-        {Springer Berlin Heidelberg}%
-      }
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Geometry of the {Time-Dependent} Variational Principle in Quantum Mechanics}
-      \field{title}{Introduction}
-      \field{year}{2008}
-      \field{pages}{1\bibrangedash 2}
-      \range{pages}{2}
-    \endentry
     \entry{NatalieJaeschke}{thesis}{}
       \name{author}{1}{}{%
         {{hash=90cf3e516ed0ccef60ed65d23a418036}{%
@@ -870,6 +854,36 @@
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/RevModPhys.73.357
       \endverb
+    \endentry
+    \entry{noauthor_2008-dn}{book}{}
+      \name{author}{1}{}{%
+        {{hash=fbe36404ccccf6be605da487684f1a55}{%
+           family={Marcos\bibnamedelima Saraceno},
+           familyi={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Peter\bibnamedelima Kramer},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           prefix={und},
+           prefixi={u\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{fbe36404ccccf6be605da487684f1a55}
+      \strng{fullhash}{fbe36404ccccf6be605da487684f1a55}
+      \strng{bibnamehash}{fbe36404ccccf6be605da487684f1a55}
+      \strng{authorbibnamehash}{fbe36404ccccf6be605da487684f1a55}
+      \strng{authornamehash}{fbe36404ccccf6be605da487684f1a55}
+      \strng{authorfullhash}{fbe36404ccccf6be605da487684f1a55}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-540-10579-4}
+      \field{title}{Geometry of the Time-Dependent Variational Principle in Quantum Mechanics}
+      \field{year}{1981}
     \endentry
     \entry{PhysRevB.65.205309}{article}{}
       \name{author}{3}{}{%
