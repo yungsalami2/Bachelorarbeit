@@ -1,45 +1,45 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [1] Config.pm:314> INFO - Logfile is 'thesis.blg'
-[132] biber:340> INFO - === Mon Oct 24, 2022, 15:41:55
-[153] Biber.pm:415> INFO - Reading 'thesis.bcf'
-[241] Biber.pm:952> INFO - Found 27 citekeys in bib section 0
-[259] Biber.pm:4340> INFO - Processing section 0
-[274] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
-[291] bibtex.pm:1689> INFO - LaTeX decoding ...
-[381] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
-[384] Utils.pm:395> WARN - Duplicate entry key: 'PhysRevB.65.205309' in file 'references.bib', skipping ...
-[468] Utils.pm:395> WARN - legacy month field 'oct' in entry '10.1137/S0097539795293172' is not an integer - this will probably not sort properly.
-[481] Utils.pm:395> WARN - legacy month field 'Sep' in entry 'PhysRevLett.93.130501' is not an integer - this will probably not sort properly.
-[499] Utils.pm:395> WARN - legacy month field 'Jan' in entry 'RevModPhys.76.1037' is not an integer - this will probably not sort properly.
-[509] Utils.pm:395> WARN - legacy month field 'May' in entry 'RevModPhys.73.357' is not an integer - this will probably not sort properly.
-[560] Utils.pm:395> WARN - legacy month field 'September' in entry 'PMID:17901328' is not an integer - this will probably not sort properly.
-[581] Utils.pm:395> WARN - legacy month field 'May' in entry 'Fokina_2010' is not an integer - this will probably not sort properly.
-[625] Utils.pm:395> WARN - legacy month field 'Jan' in entry 'RevModPhys.85.79' is not an integer - this will probably not sort properly.
-[638] Utils.pm:395> WARN - legacy month field 'Apr' in entry 'PhysRevB.65.205309' is not an integer - this will probably not sort properly.
-[651] Utils.pm:395> WARN - legacy month field 'Sep' in entry 'PhysRevB.94.094308' is not an integer - this will probably not sort properly.
-[662] Utils.pm:395> WARN - legacy month field 'Nov' in entry 'PhysRevB.70.205327' is not an integer - this will probably not sort properly.
-[679] Utils.pm:395> WARN - legacy month field 'Jan' in entry 'PhysRevB.89.045317' is not an integer - this will probably not sort properly.
-[721] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Haegeman_2011' is not an integer - this will probably not sort properly.
-[758] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 8, warning: 204 characters of junk seen at toplevel
-[758] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 26, warning: 14 characters of junk seen at toplevel
-[760] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 40, warning: 211 characters of junk seen at toplevel
-[762] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 63, warning: 58 characters of junk seen at toplevel
-[763] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 78, warning: 3 characters of junk seen at toplevel
-[764] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 108, warning: 39 characters of junk seen at toplevel
-[765] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 123, warning: 3 characters of junk seen at toplevel
-[767] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 138, warning: 33 characters of junk seen at toplevel
-[768] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 163, warning: 26 characters of junk seen at toplevel
-[769] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 185, warning: 194 characters of junk seen at toplevel
-[771] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 225, warning: 157 characters of junk seen at toplevel
-[772] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 257, warning: 178 characters of junk seen at toplevel
-[774] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 276, warning: 211 characters of junk seen at toplevel
-[775] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 316, warning: 224 characters of junk seen at toplevel
-[776] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 355, warning: 149 characters of junk seen at toplevel
-[777] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_T0Qt/33e59b5ca9ec342068223d604c3f8d55_138.utf8, line 592, warning: 92 characters of junk seen at toplevel
-[854] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[855] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[856] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[856] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
-[900] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[932] bbl.pm:757> INFO - Output to thesis.bbl
-[941] Biber.pm:128> INFO - WARNINGS: 29
+[131] biber:340> INFO - === Mon Oct 24, 2022, 16:03:45
+[156] Biber.pm:415> INFO - Reading 'thesis.bcf'
+[242] Biber.pm:952> INFO - Found 27 citekeys in bib section 0
+[262] Biber.pm:4340> INFO - Processing section 0
+[279] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
+[304] bibtex.pm:1689> INFO - LaTeX decoding ...
+[392] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[395] Utils.pm:395> WARN - Duplicate entry key: 'PhysRevB.65.205309' in file 'references.bib', skipping ...
+[488] Utils.pm:395> WARN - legacy month field 'oct' in entry '10.1137/S0097539795293172' is not an integer - this will probably not sort properly.
+[503] Utils.pm:395> WARN - legacy month field 'Sep' in entry 'PhysRevLett.93.130501' is not an integer - this will probably not sort properly.
+[525] Utils.pm:395> WARN - legacy month field 'Jan' in entry 'RevModPhys.76.1037' is not an integer - this will probably not sort properly.
+[536] Utils.pm:395> WARN - legacy month field 'May' in entry 'RevModPhys.73.357' is not an integer - this will probably not sort properly.
+[593] Utils.pm:395> WARN - legacy month field 'September' in entry 'PMID:17901328' is not an integer - this will probably not sort properly.
+[612] Utils.pm:395> WARN - legacy month field 'May' in entry 'Fokina_2010' is not an integer - this will probably not sort properly.
+[691] Utils.pm:395> WARN - legacy month field 'Jan' in entry 'RevModPhys.85.79' is not an integer - this will probably not sort properly.
+[710] Utils.pm:395> WARN - legacy month field 'Apr' in entry 'PhysRevB.65.205309' is not an integer - this will probably not sort properly.
+[735] Utils.pm:395> WARN - legacy month field 'Sep' in entry 'PhysRevB.94.094308' is not an integer - this will probably not sort properly.
+[747] Utils.pm:395> WARN - legacy month field 'Nov' in entry 'PhysRevB.70.205327' is not an integer - this will probably not sort properly.
+[764] Utils.pm:395> WARN - legacy month field 'Jan' in entry 'PhysRevB.89.045317' is not an integer - this will probably not sort properly.
+[806] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Haegeman_2011' is not an integer - this will probably not sort properly.
+[838] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 8, warning: 204 characters of junk seen at toplevel
+[838] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 26, warning: 14 characters of junk seen at toplevel
+[839] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 40, warning: 211 characters of junk seen at toplevel
+[839] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 63, warning: 58 characters of junk seen at toplevel
+[840] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 78, warning: 3 characters of junk seen at toplevel
+[840] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 108, warning: 39 characters of junk seen at toplevel
+[840] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 123, warning: 3 characters of junk seen at toplevel
+[841] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 138, warning: 33 characters of junk seen at toplevel
+[841] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 163, warning: 26 characters of junk seen at toplevel
+[842] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 185, warning: 194 characters of junk seen at toplevel
+[843] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 225, warning: 157 characters of junk seen at toplevel
+[844] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 257, warning: 178 characters of junk seen at toplevel
+[844] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 276, warning: 211 characters of junk seen at toplevel
+[845] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 316, warning: 224 characters of junk seen at toplevel
+[845] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 355, warning: 149 characters of junk seen at toplevel
+[846] Utils.pm:395> WARN - BibTeX subsystem: /tmp/biber_tmp_qZ5H/33e59b5ca9ec342068223d604c3f8d55_159.utf8, line 592, warning: 92 characters of junk seen at toplevel
+[906] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[907] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[907] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[908] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
+[959] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[994] bbl.pm:757> INFO - Output to thesis.bbl
+[1003] Biber.pm:128> INFO - WARNINGS: 29
